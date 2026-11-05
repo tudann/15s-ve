@@ -1,0 +1,11 @@
+prompt_filename: prompt_final.txt
+cases_root: ./data/固定case
+input_modes: [t2va]
+video_filenames: [seedance2.0-mini.mp4]
+case_ids: []
+output_dir: ./outputs/fixed_t2va_236_20261105
+pipeline_config: ./configs/default.yaml
+technical_gpu: ""
+force: false
+skip_judge: false
+skip_technical: false

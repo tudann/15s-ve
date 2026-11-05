@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "028_T2V-2.3-B",
+    "prompt": "生成一段15秒、9:16竖屏的真人运动人物特写，真人影像。\n\n明亮拳馆里，一位剃短发的成年女拳手穿白色背心，坐在长凳上，双手缠着浅灰护手绷带；背景沙袋静止，侧面窗光清楚照亮手背。场景中的人物均为成年人。\n\n构图与光影：拳馆侧窗擦出指节和绷带层次，沙袋退在暗部，手不靠强虚焦隐藏。\n\n镜1（0—1.5秒）·中景：凳前斜移，她张开左手、右手持绷带末端。\n镜2（1.5—4秒）·特写：俯斜双手特写，绷带绕过掌背并拉紧，五指始终可分。\n镜3（4—7秒）·全景：侧面全身，她调整坐姿、双脚踩稳、抬高手腕检查。\n镜4（7—10秒）·近景：肩后视角，她屈腕、双手握拳再依次张开。\n镜5（10—12.5秒）·微距：左掌近表面，手指伸展与绷带边缘分离。\n镜6（12.5—15秒）·中景：正前小跟进，她站起抬手到护脸位置，再放下双拳。\n\n必须保持：双手各五指、掌指连接、腕部转动和面部结构始终合理。不让绷带与皮肤融合，不用握拳全程遮住手指。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/028_T2V-2.3-B/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/028_T2V-2.3-B/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 720,
+    "height": 1280
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 4,
+      "text_video_alignment": 4,
+      "physical_consistency": 4
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt.\n\nThe text prompt asks for: \"生成一段15秒、9:16竖屏的真人运动人物特写，真人影像\" (Generate a 15-second, 9:16 vertical real sports person close-up, live action)\n\nLooking at the frames:\n\nVisual Quality Analysis:\n- The frames depict a person in a gym setting with boxing gloves; overall image quality is solid with good lighting and contrast.\n- The resolution is adequate and details are generally clear across most frames.\n- There are occasional minor softness or compression artifacts in some frames, but these do not dominate the viewing experience.\n- Overall, visual quality is good and consistent with a score of 4.\n\nText-to-Video Alignment Analysis:\n- The video aligns well with the prompt: it shows a real person performing a sport-related activity in a gym context, with appropriate attire and equipment.\n- The framing and subject matter match the requested content, and the sequence progresses plausibly from preparation to action.\n- The alignment is strong, though not perfect in every micro-detail, which corresponds to a score of 4.\n\nPhysical Consistency / Common-sense:\n- Movements and interactions appear natural and physically plausible throughout the sequence.\n- No obvious violations of physics or common sense are observed; any minor timing or grip nuances do not undermine overall realism.\n- This supports a score of 4.\n\nGround-truth scores: Visual Quality = 4; Text-to-Video Alignment = 4; Physical Consistency = 4.\n</think>\n\n(1) visual quality: 4\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 4\n"
+  },
+  "input_fingerprint": "ad477bfbb1664a7f52343f53779e9356b1fdd2e8e8bef43585bd7e07c3f17440"
+}

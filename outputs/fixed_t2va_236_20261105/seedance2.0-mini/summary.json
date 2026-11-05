@@ -1,0 +1,24 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "samples": 236,
+  "complete": 234,
+  "groups": {
+    "15s": {
+      "count": 234,
+      "technical_mean": {
+        "subject_consistency": 0.904061,
+        "background_consistency": 0.943253,
+        "motion_smoothness": 0.990917,
+        "dynamic_degree": 0.532585,
+        "aesthetic_quality": 0.576454,
+        "imaging_quality": 0.719334
+      },
+      "judge_mean": {
+        "visual_quality": 3.551282,
+        "text_video_alignment": 3.794872,
+        "physical_consistency": 3.478632
+      },
+      "final_mean": 3.98
+    }
+  }
+}

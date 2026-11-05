@@ -1,0 +1,36 @@
+# 本地环境和缓存
+.venv/
+__pycache__/
+*.py[cod]
+
+# 模型权重、分词器和下载缓存
+models/
+
+# 服务日志
+logs/
+*.log
+*.pid
+*.failed-mem
+
+# 输入成片，以及评估过程中保存的抽帧图片和窗口视频
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.wav
+*.flac
+
+# 权重和大压缩包
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.zip

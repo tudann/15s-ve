@@ -1,0 +1,54 @@
+# 整段保持与提示遵循。第一期管道配置。
+dimension: 21. 整段保持与提示遵循
+
+judge:
+  # 原方案是 VideoScore2 的三问。作答模型是本机 5 号卡上的 VideoScore2。
+  protocol: VideoScore2
+  protocol_model: TIGER-Lab/VideoScore2
+  base_url: http://127.0.0.1:8013/v1
+  model: VideoScore2
+  api_key: ""
+  temperature: 0
+  timeout_seconds: 600
+  sample_fps: 2
+  max_frames: 32
+  frame_width: 640
+  jpeg_quality: 85
+  # Audio input is disabled until an audio-capable judge endpoint is configured and verified.
+  audio_input_format: disabled
+  audio_max_seconds: 60
+  reference_max_frames: 8
+  max_context_images: 64
+
+technical:
+  window_seconds: 2.0
+  # 尾段短于这个长度时不单独成窗，避免一个残片拉低最差窗。
+  min_tail_seconds: 1.0
+  # 在 4 号与 5 号里选空闲显存更多的一张。这两张卡上已有裁判进程，默认同卡，不改用 0 号。
+  gpu: auto
+  gpus:
+    - "4"
+    - "5"
+  device: cuda
+  dimensions:
+    - subject_consistency
+    - background_consistency
+    - motion_smoothness
+    - dynamic_degree
+    - aesthetic_quality
+    - imaging_quality
+
+# 最终 1–5 分。技术块和裁判块先各自落到 1–5，再按 technical_weight 相加。
+# 只改这个占比即可；块内权重之和必须为 1。动态程度不进入最终分。
+final_score:
+  technical_weight: 0.5
+  technical:
+    subject_consistency: 0.40
+    background_consistency: 0.25
+    imaging_quality: 0.15
+    motion_smoothness: 0.10
+    aesthetic_quality: 0.10
+  judge:
+    text_video_alignment: 0.50
+    visual_quality: 0.25
+    physical_consistency: 0.25

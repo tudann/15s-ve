@@ -1,0 +1,11 @@
+prompt_filename: prompt_final.txt
+cases_root: /pfs/pfs-spMCeu/eval_team/Video-eval/LT/eval_demension/data/1030固定回归/14_edit_controllable_gen
+input_modes: [t2va, f2va, l2va, fl2va, r2va]
+video_filenames: [线上模型.mp4, 预计上线模型.mp4]
+case_ids: []
+output_dir: ./outputs/multimodal
+pipeline_config: ./configs/default.yaml
+technical_gpu: ""
+force: false
+skip_judge: false
+skip_technical: false

@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "014_T2V-1.7-B",
+    "prompt": "生成一段15秒、1:1方形画幅的真人农业品牌纪实，真人影像。\n\n晴朗夏季正午的葡萄园，一位戴草帽、穿浅卡其工作服的成年男性种植者站在成行藤架之间。阳光从高处照下，脚边阴影短，叶片明亮，远景是干燥土路和低丘。场景中的人物均为成年人。\n\n构图与光影：保留正午硬光与短影，藤叶形成自然遮幅，紫葡萄亮暗不糊成块。\n\n镜1（0—1.5秒）·大全景：藤架端高机位，种植者步入阳光行间。\n镜2（1.5—4秒）·中景：叶隙侧滑，他拨叶托起枝上葡萄。\n镜3（4—7秒）·微距：果粉与叶脉微距，手托而不采摘。\n镜4（7—10秒）·全景：行间跟退，他放回果串、前进两步再检查邻近叶片。\n镜5（10—12.5秒）·近景：草帽下擦汗、抬头看晴空。\n镜6（12.5—15秒）·大全景：略升高收束，人物继续向行间深处走，短影与干土路清楚。\n\n必须保持：夏季晴天正午、户外葡萄园与高位阳光准确呈现。不转为清晨薄雾、傍晚长阴影或室内温室。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/014_T2V-1.7-B/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/014_T2V-1.7-B/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 960,
+    "height": 960
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 4,
+      "physical_consistency": 3
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a 15-second, 1:1 square-framed, real-person agricultural brand documentary shot in bright midday sun in a vineyard.\" Let me examine each dimension:\n\nVisual Quality Analysis:\nThe overall visual quality is moderate (3/5). The frames show decent resolution with occasional softness and minor compression artifacts that slightly affect sharpness. Lighting remains natural and consistent with bright midday sun, and color grading is stable across scenes. There are no major distortions or abrupt frame-to-frame changes, and the composition stays coherent throughout. Overall, the video presents a credible look but does not reach high-end clarity.\n\nText-to-Video Alignment Analysis:\nThe video aligns well with the prompt requirements. It features a real person in an agricultural setting, framed in a 1:1 square aspect ratio, under bright daylight, in a vineyard with visible rows and grape clusters. The subject wears appropriate work attire and performs plausible field actions, including examining grapes and walking through the rows. The sequence progresses logically from general field inspection to close-up details of the crop, maintaining alignment with the requested content. Minor deviations may exist in exact framing or pacing, but they do not significantly detract from overall alignment.\n\nPhysical Consistency / Common-sense:\nThe scene generally adheres to physical realism and common-sense expectations: daylight, outdoor shadows, and interactions with the vines appear believable. However, there are a few subtle inconsistencies in motion dynamics and hand positioning during close-ups that prevent a perfect match to real-world physics. These small issues keep the overall physical consistency at a moderate level.\n</think>\n\n(1) visual quality: 3\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 3\n"
+  },
+  "input_fingerprint": "31ecf99f97d8d79739a3b8ff87a1ea983e9b0c0a9878621d97742ec9effe5346"
+}

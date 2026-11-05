@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "053_T2V-4.3-A",
+    "prompt": "生成一段15秒、1:1方形画幅的三维动画发型生活短片，采用三维动画风格。\n\n成年女性有一条垂到肩胛骨的黑色低马尾，额前两缕碎发，穿浅蓝衬衫，站在明亮无镜面的木质走廊。场景中的人物均为成年人。\n\n构图与光影：木廊窗光形成连续亮带，马尾黑色轮廓与浅木分开。\n\n镜1（0—2秒）·近景：正面跟退，她迈步抬眼，额前两缕碎发清楚。\n镜2（2—4秒）·全景：斜后侧，她走向廊中、向左转身。\n镜3（4—7秒）·中景：背面短距伴随，低马尾束点及肩胛长度清楚，发梢回摆。\n镜4（7—10秒）·特写：转回侧脸，碎发掠过额头后落回。\n镜5（10—12.5秒）·大全景：廊端高位，她完整转回正面、调整站位。\n镜6（12.5—15秒）·近景：前侧，她把一缕碎发轻别开再松手，马尾款式不变。\n\n必须保持：黑色低马尾的长度、束发位置和额前碎发始终一致。不能变成披发、高马尾、短发或改变发色。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/053_T2V-4.3-A/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/053_T2V-4.3-A/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 960,
+    "height": 960
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 4,
+      "physical_consistency": 3
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a 15-second, 1:1 square-framed 3D animation short about life, in 3D animation style\" with specific requirements:\n\nVisual Quality Analysis:\nThe overall visual quality is moderate (score 3). The rendering maintains a consistent 3D animation aesthetic with coherent lighting and textures, but there are occasional minor artifacts or slight softness that prevent a higher rating.\n\nText-to-Video Alignment Analysis:\nAlignment to the prompt is strong overall (score 4). The video presents a 3D animated character in a modern interior setting, with a light blue shirt and dark pants, and a ponytail, which aligns with several prompt elements. However, some aspects of the prompt—such as exact framing nuances and certain dynamic actions—are not fully realized, leaving room for improvement while preserving core alignment.\n\nPhysical/Common-sense Consistency:\nPhysical consistency is moderate (score 3). Movements and interactions are generally plausible, with natural-looking gestures and believable fabric behavior, but there are occasional minor inconsistencies in timing or contact with surfaces that prevent a higher score.\n\nOverall assessment:\nThe video demonstrates solid technical execution with good alignment to the prompt, but the visual quality and physical consistency remain at a moderate level. Ground-truth scores: Visual Quality 3; Text-to-Video Alignment 4; Physical Consistency 3.\n</think>\n\n(1) visual quality: 3\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 3\n"
+  },
+  "input_fingerprint": "c3d254a7d7fb3b854d66ec7bb6824ca17257198083edd32b6b0f5befb07805b2"
+}

@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "032_T2V-2.5-B",
+    "prompt": "生成一段15秒、4:3横屏的真人餐具设计短片，真人影像。\n\n黑灰餐桌上，一位成年服务员穿白衬衫和深色马甲，拿着一只光洁银色餐盘。桌面左上方只有一盏乳白吊灯，后方是低亮暖灰墙。场景中的人物均为成年人。\n\n构图与光影：仅乳白吊灯照明，背景灰阶渐暗，银盘反射软亮不过曝。\n\n镜1（0—2.5秒）·近景：侧俯，服务员将盘抬离桌面，吊灯倒影单一。\n镜2（2.5—4.5秒）·全景：桌侧反角，人物把餐盘转向灯下。\n镜3（4.5—9.5秒）·特写：餐盘与手、桌影同时入画，连续倾转再回平，反光依曲率移动。\n镜4（9.5—12秒）·中景：跟随手臂下降，盘确实落桌，双手离盘。\n镜5（12—15秒）·微距：盘沿、桌面接触阴影与灯影定住，手指从画缘退出。\n\n必须保持：单一吊灯方向、金属反射和接触阴影相互自洽。不能让灯的反射无因复制或脱离盘面。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/032_T2V-2.5-B/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/032_T2V-2.5-B/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 1112,
+    "height": 834
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 4,
+      "physical_consistency": 3
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a 15-second, 4:3 horizontal short film about a real person presenting a design of a utensil, with a realistic human figure in a professional setting.\" \n\nVisual Quality Analysis:\nThe overall visual quality is moderate (score 3). The frames maintain decent resolution and clarity, with consistent lighting and believable metallic reflections. There are no major distortions or artifacts, but some frames show mild softness and minor noise, which prevents a higher rating.\n\nText-to-Video Alignment Analysis:\nAlignment to the prompt is strong (score 4). The video presents a person in a professional setting handling a metallic plate, with close-ups that emphasize the object's form and material. The framing and pacing support a focus on the design, and the scene conveys a realistic presentation of the utensil. A few frames could be tightened to better match the exact 15-second duration, but the overall alignment remains solid.\n\nPhysical/Common-sense Consistency:\nOverall consistency is moderate (score 3). The interactions appear plausible, with natural hand movements and believable reflections. However, there are minor inconsistencies in lighting continuity and subtle motion cues across frames that prevent a higher score.\n\nGround-truth scores: Visual Quality 3; Text-to-Video Alignment 4; Physical Consistency 3.\n</think>\n\n(1) visual quality: 3\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 3\n"
+  },
+  "input_fingerprint": "3cde07597cbcf28148ca28633c626d3e2d9422bee1b83838ba2b5847d4fcedb4"
+}

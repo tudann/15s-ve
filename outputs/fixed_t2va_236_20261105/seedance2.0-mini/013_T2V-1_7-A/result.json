@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "013_T2V-1.7-A",
+    "prompt": "生成一段15秒、1:1方形画幅的水彩动画城市生活短片，采用水彩动画风格。\n\n冬季深夜的便利店门外持续飘小雪，一位戴红色毛线帽、穿黑色羽绒服的成年女子站在玻璃门外，室内暖白灯照亮货架轮廓；街道为空，无招牌文字。场景中的人物均为成年人。\n\n构图与光影：水彩冷雪夜与暖店光形成透窗构图，雪保留纸白，不铺满画面。\n\n镜1（0—2秒）·近景：屋檐下侧跟，女子搓手呵气。\n镜2（2—4秒）·大全景：跨街广角，雪夜街面与明亮店门同时可见。\n镜3（4—7秒）·中景：门外三分之二侧面，她推门、收肩跨过门槛。\n镜4（7—10秒）·特写：手松开门把，雪落在室外帽沿后融化。\n镜5（10—12.5秒）·全景：店内朝外反打，她抖净鞋边雪、摘帽，门回合。\n镜6（12.5—15秒）·中景：横移至玻璃一侧，她向店里走，窗外仍飘雪。\n\n必须保持：深夜、冬季、室外降雪与室内便利店四项场景条件共同成立。外景不能变白天，室内不下雪，开门不切换成另一地点。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/013_T2V-1.7-A/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/013_T2V-1.7-A/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 960,
+    "height": 960
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 4,
+      "physical_consistency": 3
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a winter night scene with a woman in a red knit cap and black羽绒服 entering a convenience store, with snow outside and warm interior lighting.\" \n\nVisual Quality Analysis:\nThe video adopts a watercolor/animated style with decent clarity overall. There are some minor issues: occasional slight softness or blur in certain frames, and a few transitions feel a touch abrupt. Snow effects are present but not perfectly consistent across all frames, and there is a mild color balance shift between the cool exterior and warm interior lighting that slightly disrupts visual harmony. Overall, Visual Quality is moderate (3).\n\nText-to-Video Alignment Analysis:\nThe video largely satisfies the prompt elements: winter night setting, a woman wearing a red knit cap and dark coat, entering a convenience store, visible snow outside, and warm interior lighting. The alignment is strong overall, with only minor deviations in timing or pose during the entry sequence. This supports a high alignment score around 4.\n\nPhysical/Common-sense Consistency:\nMost physical aspects—snow behavior, lighting contrast, and character movement—are coherent within the stylized animation. However, there are a few moments where physics or spatial logic could be tightened (e.g., slight mismatches in hand positioning during door interaction or subtle inconsistencies in snow accumulation). These keep the overall consistency at a moderate level (3).\n\n</think>\n\n(1) visual quality: 3\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 3\n"
+  },
+  "input_fingerprint": "dd9d0ebf9e243bf14eb1677ddae8293f5546cf1650f79a766cd75fc80bcf52d0"
+}

@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "018_T2V-1.9-B",
+    "prompt": "生成一段15秒、16:9横屏的真人智力竞技宣传片，真人影像。\n\n一间深色棋室，两名成年棋手隔着方形棋桌坐着，左侧女棋手穿白衬衫，右侧男棋手穿藏蓝针织衫；棋子是黑白围棋子，没有棋钟与文字。顶灯仅照亮棋桌和双手。场景中的人物均为成年人。\n\n构图与光影：顶灯圆形光区衬方形棋桌，黑白子与手臂交错构图，桌外压暗。\n\n镜1（0—2.5秒）·大全景：垂直俯拍建立棋桌、双方位置，双手退至桌沿。\n镜2（2.5—4.5秒）·近景：仍垂直俯拍，白衣女取白子、悬于盘上。\n镜3（4.5—9.5秒）·全景：正上方连续下降，白子落中央偏左，男棋手取黑子但不落，四角始终入画。\n镜4（9.5—12秒）·特写：垂直俯视黑子在指间一转，尚未落盘。\n镜5（12—15秒）·中景：垂直俯视棋局和双方手臂，白手撤回，黑子仍由男方持着。\n\n必须保持：垂直俯拍和缓慢下降这两项指定摄影语言得到执行。不旋转、不横移，下降时保持摄影方向不变。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间呈现，指定低速运动有实际位移和连续变化，不做时间慢放；各动作起落衔接，不用空等填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/018_T2V-1.9-B/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/018_T2V-1.9-B/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 1280,
+    "height": 720
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 3,
+      "physical_consistency": 3
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt describes a 15-second, 16:9 horizontal promo-style video featuring two adult chess players at a square table, with one wearing white and the other in dark clothing, playing with black and white pieces under overhead lighting.\n\nLooking at the frames:\n\nVisual Quality Analysis:\n- The overall visual quality is moderate (3/5). The frames are generally clear with decent detail, but there are occasional minor artifacts or slight softness that prevent a higher rating.\n- Lighting remains consistent and the overhead spotlight effect is present, though not perfectly uniform across all frames.\n- The composition stays stable and the camera angle is mostly steady; some frames show minor framing variations.\n- Contrast between the board and pieces is adequate, and the sequence maintains coherence without major distortions.\n\nText-to-Video Alignment Analysis:\n- The scene captures the core elements of the prompt: two players, a square table, and a chess-like activity with overhead lighting.\n- However, several specifics are not clearly realized: the exact clothing colors and the precise 16:9 aspect ratio are not consistently evident, and the action appears more like a single-player setup rather than a two-person game.\n- Overall alignment is moderate (3/5).\n\nPhysical/Common-sense Consistency:\n- The hand movements and piece handling appear plausible for a chess-like activity, with natural-looking motions and believable interactions with the board and pieces.\n- There are no obvious physical implausibilities, though the limited view and framing introduce minor ambiguities in the perceived dynamics.\n- Overall, physical/common-sense consistency is moderate (3/5).\n\n</think>\n\n(1) visual quality: 3\n(2) text-to-video alignment: 3\n(3) physical/common-sense consistency: 3\n"
+  },
+  "input_fingerprint": "07ded727e695f32543d10fa1ae16c8601059a19235fc466d95fc5d507f752e34"
+}

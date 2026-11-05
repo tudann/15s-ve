@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "023_T2V-2.1-A",
+    "prompt": "生成一段15秒、4:3横屏的墨线动画服装工艺短片，采用墨线动画风格。\n\n白墙裁缝室内，一位银色短发成年女裁缝穿黑色衬衫，双手捧着一件米色粗纺外套；窗光从左侧擦过布纹，背景只有木衣架。场景中的人物均为成年人。\n\n构图与光影：窗光贴布纹形成纤维明暗，白墙留灰阶，墨线按材质疏密变化。\n\n镜1（0—2秒）·近景：斜前方，她抬起米色外套、展平衣领。\n镜2（2—4秒）·微距：沿接缝横移，针脚和粗纺纤维各自清楚。\n镜3（4—7秒）·中景：反侧，她把衣料转向窗光、指尖沿缝线划过。\n镜4（7—10秒）·特写：裁缝抬眼检查领口，银发与眉眼同样清楚。\n镜5（10—12.5秒）·全景：侧轨后撤，她把外套举至木衣架旁比齐，仍由双手托住。\n镜6（12.5—15秒）·近景：略低机位，她抹平下摆再回到正面，织物边缘不重影。\n\n必须保持：移动前后人脸、缝线和织物边缘仍有可辨细节。不能以锐化白边代替真实清晰度，不把细节做成噪点。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/023_T2V-2.1-A/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/023_T2V-2.1-A/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 1112,
+    "height": 834
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 4,
+      "text_video_alignment": 3,
+      "physical_consistency": 4
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the prompt. The prompt asks for \"a 15-second, 4:3 horizontal frame, a black-and-white or monochrome palette, a minimalist aesthetic, and a focus on fabric texture and garment construction.\" \n\nVisual Quality Analysis:\nThe video adopts a clean, minimalist monochrome style with clear line work and solid contrast. Visual quality is solid overall (score 4): details are generally crisp, lighting remains consistent, and there are no major artifacts. A few frames show minor softness or slight edge softness, but these do not significantly detract from readability or the overall impression.\n\nText-to-Video Alignment Analysis:\nAlignment to the prompt is moderate (score 3). The video captures several key elements—monochrome palette, minimalist aesthetic, and close attention to fabric texture and garment construction. However, it does not strictly adhere to all aspects of the brief: the framing is not consistently 4:3, and the sequence does not always progress in a way that mirrors the described camera movements. Overall, the alignment is acceptable but not exact.\n\nPhysical/Common-sense Consistency:\nPhysical consistency is strong (score 4). The fabric behavior, drape, and interaction with the hanger read as natural, and lighting/shadows support plausible spatial relationships. There are only minor deviations in a few frames where hand positioning or fabric tension appears slightly off, but they do not undermine the overall realism.\n\nOverall assessment:\nThe video demonstrates solid technical execution with good visual clarity and coherent physical behavior. Alignment to the prompt is moderate rather than exact, reflecting a balanced interpretation of the requested elements.\n</think>\n\n(1) visual quality — clarity, stability, and visible artifacts across the whole clip: 4\n(2) text-to-video alignment — whether the clip shows the subject, action, and scene in the prompt: 3\n(3) physical/common-sense consistency — whether visible motion and object relations follow everyday physics and common sense: 4\n"
+  },
+  "input_fingerprint": "9f5c2ee02c60723c0fb4f71f44f7d7b4970a728d45346c07584d0b1c7e6ad2d7"
+}

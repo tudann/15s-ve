@@ -1,0 +1,32 @@
+{
+  "sequence": 202,
+  "case_id": "T2V-16.2-B",
+  "parameters": "16:9 / 15 秒",
+  "prompt_sha256": "1d857dd46eed734fb8ab6dc6ad460bd7582b7698fdcdaf43143c6ff922a26dd1",
+  "source_document": "https://vcnv6uhrczh3.feishu.cn/wiki/NnZtwFCNIichKGkQhqmcY8TBnyc",
+  "videos": [
+    {
+      "filename": "seedance2.0-mini.mp4",
+      "original_name": "T2V-16.2-B — seedance-2-0-mini.mp4",
+      "media_info": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "15.104000"
+        }
+      },
+      "sha256": "50bce47fc3a42b8c4942a474ffca85f7bd88738faaa58feca01c4b851fffe672",
+      "size": 7233539
+    }
+  ],
+  "match_method": "飞书同一表格行的序号、Case ID、提示词与视频附件"
+}

@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "051_T2V-4.2-A",
+    "prompt": "生成一段15秒、9:16竖屏的纸艺定格动画护肤人物短片，采用纸艺定格动画风格。\n\n成年女性有圆杏眼、细长鼻梁和略厚下唇，黑发束在脑后，穿米色高领上衣，站在浅灰露台墙边；左前方柔光稳定。场景中的人物均为成年人。\n\n构图与光影：纸偶五官依明确比例，左前柔光显纸层，灰墙留干净负空间。\n\n镜1（0—2.5秒）·中景：侧前移，她伸展肩颈、抬眼。\n镜2（2.5—5秒）·特写：正脸，圆杏眼眨动，厚下唇轻抿。\n镜3（5—10秒）·近景：连续侧移五秒，她从正面转左侧、低头再抬头，五官关系不断裂。\n镜4（10—12.5秒）·全景：露台斜全身，她转回站位、双手自然相扣。\n镜5（12.5—15秒）·特写：正面眉眼鼻唇同框，她从放松到浅笑，骨相不换。\n\n必须保持：眼形、鼻梁、嘴唇和面部骨相在转头与表情变化中一致。笑容不能导致眼鼻位置重排或脸部换人。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/051_T2V-4.2-A/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/051_T2V-4.2-A/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 720,
+    "height": 1280
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 4,
+      "text_video_alignment": 4,
+      "physical_consistency": 4
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt.\n\nThe text prompt asks for: \"生成一段15秒、9:16竖屏的纸艺定格动画护肤人物短片，采用纸艺定格动画风格\" (Generate a 15-second, 9:16 vertical paper craft stop-motion skincare character short film in paper craft stop-motion style).\n\nLooking at the frames:\n\nVisual Quality Analysis:\n- The video presents a consistent paper craft/stop-motion aesthetic with clean rendering and stable lighting.\n- The resolution is adequate; there are no obvious artifacts or distortions across the sequence.\n- The character design remains coherent throughout, with smooth transitions between frames.\n- Overall visual quality is solid and suitable for the requested style, though not exceptional.\n\nText-to-Video Alignment Analysis:\n- The output aligns with the core elements of the prompt: a paper craft stop-motion character, appropriate styling, and a coherent sequence.\n- However, several explicit prompt details are not clearly realized: the vertical 9:16 format is not evident, and there is no visible skincare action or branding context.\n- The duration appears shorter than 15 seconds, and some framing choices diverge from the exact specification.\n- Despite these gaps, the alignment is strong overall, capturing the essential concept while missing some contextual specifics.\n\nPhysical Consistency / Common-sense:\n- The animation maintains plausible physical behavior within the stylized paper craft framework; movements are deliberate and consistent with the medium.\n- There are no obvious physics violations, and the character’s proportions stay coherent across frames.\n- Some minor timing or pose variations exist but do not undermine overall coherence.\n\nOverall assessment:\n- Visual Quality: 4\n- Text-to-Video Alignment: 4\n- Physical Consistency: 4\n\n</think>\n\n(1) visual quality: 4\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 4\n"
+  },
+  "input_fingerprint": "3c3b584b4c5fe6e9bf6e7a6fa6797b479ac4cd823d196d7c8e57cc785cbb6bc0"
+}

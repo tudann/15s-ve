@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "047_T2V-3.6-A",
+    "prompt": "生成一段15秒、4:3横屏的微缩模型定格动画城市生活短片，采用微缩模型定格动画风格。\n\n一位成年女性穿暗红针织衫坐在咖啡馆木桌旁；后方窗户有固定的六格黑色窗框，左侧两张空木椅，右侧一盏立灯。阴天日光柔和。场景中的人物均为成年人。\n\n构图与光影：六格窗框作稳定建筑网格，红针织与木色对比，日光不过曝。\n\n镜1（0—2.25秒）·中景：桌边侧滑，她把双手从桌边移到杯旁。\n镜2（2.25—4.5秒）·特写：空杯被握住，杯沿与原木桌接触解除。\n镜3（4.5—10.5秒）·全景：连续斜向短轨六秒，转身看窗、举杯检查再放回，六格窗和两椅立灯同框。\n镜4（10.5—12.75秒）·近景：面部反侧，她松手、顺平袖口。\n镜5（12.75—15秒）·大全景：窗对角全厅，她将椅子轻推回桌下，原家具布局仍可定位。\n\n必须保持：背景窗格数量与家具结构在镜头移动过程中保持一致。不让窗框增减、椅子突然改变形状或立灯无因位移。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/047_T2V-3.6-A/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/047_T2V-3.6-A/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 1112,
+    "height": 834
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 4,
+      "text_video_alignment": 3,
+      "physical_consistency": 3
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a 15-second, 4:3 horizontal micro-scale model stop-motion urban short film in a micro-scale model stop-motion style.\" \n\nLooking at the frames:\n\nVisual Quality Analysis:\n- The frames depict a woman in a maroon/burgundy cardigan seated by a window with a white mug.\n- The resolution is solid; lighting is natural and consistent.\n- The scene maintains stable composition across shots, with smooth transitions and no obvious artifacts.\n- Overall visual quality is strong, though not flawless; minor texture or compression nuances prevent a perfect top score.\n\nText-to-Video Alignment Analysis:\n- The prompt specifies a 15-second, 4:3 horizontal micro-scale model stop-motion urban short film in a micro-scale model stop-motion style.\n- The video presents a realistic human figure rather than a true micro-scale model, which diverges from the requested scale.\n- The framing is mostly horizontal, but there are occasional vertical or mixed orientations, reducing strict adherence to the 4:3 requirement.\n- The sequence does not clearly demonstrate a stop-motion animation; movements appear largely static with limited frame-to-frame change.\n- The urban context (city view through the window) is present, but the core stylistic constraint (micro-scale model stop-motion) is not met.\n- Overall alignment is moderate: some elements align with the prompt, but key stylistic requirements are not satisfied.\n\nPhysical/Common-sense Consistency:\n- The scene adheres to basic physical plausibility: the subject’s posture, hand positions, and object interactions are coherent.\n- Lighting, shadows, and spatial relationships are consistent throughout.\n- There are no obvious physics violations; however, the lack of dynamic micro-scale modeling and motion reduces perceived realism relative to the prompt.\n- Overall, physical/common-sense consistency is acceptable but not exceptional.\n\n</think>\n\n(1) visual quality: 4\n(2) text-to-video alignment: 3\n(3) physical/common-sense consistency: 3\n"
+  },
+  "input_fingerprint": "7e52b9b7d5a2c98ccbe64b168b0b57b9b2ea87df6bc455d7eb49d77f95e8aa24"
+}

@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "030_T2V-2.4-B",
+    "prompt": "生成一段15秒、1:1方形画幅的真人手工艺品牌短片，真人影像。\n\n一名穿棕色帆布围裙的成年女皮匠坐在胡桃木台前，手边是一小块黑色皮革和一只黄铜压轮。斜侧暖光同时显出皮革毛孔、木纹及黄铜磨痕。场景中的人物均为成年人。\n\n构图与光影：暖侧光擦过皮面毛孔，黄铜只保留窄条高光，木纹作斜向引导。\n\n镜1（0—1.5秒）·中景：桌角滑入，皮匠把皮革展平、压住一端。\n镜2（1.5—4秒）·微距：指腹压出轻痕，皮革边缘轻翘。\n镜3（4—7秒）·近景：侧俯连续跟轮，黄铜压轮沿边滚过，影子跟随接触点。\n镜4（7—10秒）·全景：从工作台另一侧，她换手压住皮革、转腕提起压轮。\n镜5（10—12.5秒）·特写：轮与皮革分离，压痕、木纹与铜面并置。\n镜6（12.5—15秒）·中景：沿桌边回移，她把皮革转半圈检查边口，再将工具放回原位。\n\n必须保持：皮革柔韧压痕、木纹与黄铜硬质反光相互区分。不要让皮革呈金属反光，或让木纹游离于木台表面。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/030_T2V-2.4-B/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/030_T2V-2.4-B/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 960,
+    "height": 960
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 4,
+      "text_video_alignment": 4,
+      "physical_consistency": 5
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a 15-second, 1:1 square-framed short video about a leather craftsperson, focusing on the hands and tools.\" \n\nVisual Quality Analysis:\nThe visuals are generally strong with clear detail in the hands, tools, and leather texture. Lighting is warm and consistent, and the framing remains stable across most shots. There are occasional minor softness or slight color/contrast variations in a few frames, but these do not significantly detract from overall quality. Overall, visual quality is solid and aligns with a score of 4.\n\nText-to-Video Alignment Analysis:\nThe video largely satisfies the prompt requirements: it shows a person working with leather, with visible hands, tools, and a crafting context. The framing is predominantly 1:1 and the sequence progresses logically through setup, tool use, and finishing. A few frames show minor deviations (e.g., brief tool visibility or slight framing variation), but they do not undermine the overall alignment. This supports a high alignment score around 4.\n\nPhysical/Common-sense Consistency:\nInteractions between hands, tools, and leather appear natural and physically plausible throughout. Tool handling, contact dynamics, and material behavior follow expected real-world constraints, with no obvious inconsistencies. The scene maintains coherent physical realism, supporting a top score of 5.\n\nGround-truth scores: Visual Quality = 4; Text-to-Video Alignment = 4; Physical Consistency = 5.\n</think>\n\n(1) visual quality: 4\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 5\n"
+  },
+  "input_fingerprint": "9004bbae4e07f97d12f1de507ab93ead0f89dddadfb9bec51cbb97a9d6162b1f"
+}

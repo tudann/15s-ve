@@ -1,0 +1,32 @@
+{
+  "sequence": 211,
+  "case_id": "T2V-17.3-A",
+  "parameters": "9:16 / 15 秒",
+  "prompt_sha256": "23a78e2dc6a984c669a203dac131c6e7ef31d622940d55ce3bdae59a0013f951",
+  "source_document": "https://vcnv6uhrczh3.feishu.cn/wiki/NnZtwFCNIichKGkQhqmcY8TBnyc",
+  "videos": [
+    {
+      "filename": "seedance2.0-mini.mp4",
+      "original_name": "T2V-17.3-A — seedance-2-0-mini.mp4",
+      "media_info": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 720,
+            "height": 1280
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "15.104000"
+        }
+      },
+      "sha256": "455fa623fc9e5339dcead387095d38c493c5b36139b28d7145c7e1f6fb9a99fa",
+      "size": 7993554
+    }
+  ],
+  "match_method": "飞书同一表格行的序号、Case ID、提示词与视频附件"
+}

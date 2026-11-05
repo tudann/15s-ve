@@ -1,0 +1,1122 @@
+[
+    {
+        "prompt_en": "seedance2_0-mini__010_T2V-1_5-B__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__008_T2V-1_4-B__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__002_T2V-1_1-B__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__003_T2V-1_2-A__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__003_T2V-1_2-A__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_006.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__008_T2V-1_4-B__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_006.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__002_T2V-1_1-B__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__005_T2V-1_3-A__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__001_T2V-1_1-A__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__001_T2V-1_1-A__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__007_T2V-1_4-A__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__004_T2V-1_2-B__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__001_T2V-1_1-A__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__005_T2V-1_3-A__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__007_T2V-1_4-A__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__004_T2V-1_2-B__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__007_T2V-1_4-A__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__005_T2V-1_3-A__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__006_T2V-1_3-B__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__002_T2V-1_1-B__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__005_T2V-1_3-A__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__009_T2V-1_5-A__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__008_T2V-1_4-B__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__006_T2V-1_3-B__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__004_T2V-1_2-B__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__002_T2V-1_1-B__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__007_T2V-1_4-A__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__006_T2V-1_3-B__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__005_T2V-1_3-A__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__001_T2V-1_1-A__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__001_T2V-1_1-A__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__003_T2V-1_2-A__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__001_T2V-1_1-A__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__005_T2V-1_3-A__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__008_T2V-1_4-B__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__010_T2V-1_5-B__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__004_T2V-1_2-B__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__004_T2V-1_2-B__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__005_T2V-1_3-A__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__007_T2V-1_4-A__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_006.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__001_T2V-1_1-A__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__005_T2V-1_3-A__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_006.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__008_T2V-1_4-B__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__003_T2V-1_2-A__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__006_T2V-1_3-B__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_006.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__004_T2V-1_2-B__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_006.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__008_T2V-1_4-B__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__007_T2V-1_4-A__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__007_T2V-1_4-A__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__006_T2V-1_3-B__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__002_T2V-1_1-B__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__008_T2V-1_4-B__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__010_T2V-1_5-B__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__010_T2V-1_5-B__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__001_T2V-1_1-A__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_006.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__006_T2V-1_3-B__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__003_T2V-1_2-A__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__004_T2V-1_2-B__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__008_T2V-1_4-B__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__009_T2V-1_5-A__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__009_T2V-1_5-A__win_003",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_003.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__002_T2V-1_1-B__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__009_T2V-1_5-A__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__006_T2V-1_3-B__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__003_T2V-1_2-A__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__002_T2V-1_1-B__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__007_T2V-1_4-A__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__009_T2V-1_5-A__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__010_T2V-1_5-B__win_004",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_004.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__010_T2V-1_5-B__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_006.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__002_T2V-1_1-B__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_006.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__003_T2V-1_2-A__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__010_T2V-1_5-B__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__006_T2V-1_3-B__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__010_T2V-1_5-B__win_007",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_007.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__004_T2V-1_2-B__win_000",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_000.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__009_T2V-1_5-A__win_005",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_005.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__009_T2V-1_5-A__win_001",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_001.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__003_T2V-1_2-A__win_002",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_002.mp4"
+        ]
+    },
+    {
+        "prompt_en": "seedance2_0-mini__009_T2V-1_5-A__win_006",
+        "dimension": [
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality"
+        ],
+        "video_list": [
+            "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_006.mp4"
+        ]
+    }
+]

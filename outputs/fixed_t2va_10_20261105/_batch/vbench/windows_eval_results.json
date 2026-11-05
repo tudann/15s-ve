@@ -1,0 +1,2112 @@
+{
+    "subject_consistency": [
+        0.8807320200983255,
+        [
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_001.mp4",
+                "video_results": 0.7600704355442778
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_007.mp4",
+                "video_results": 0.9878326493004957
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_000.mp4",
+                "video_results": 0.9802791964500508
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_003.mp4",
+                "video_results": 0.9659671104968862
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_006.mp4",
+                "video_results": 0.9350319891533954
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_006.mp4",
+                "video_results": 0.9861513877168615
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_002.mp4",
+                "video_results": 0.8947662072295838
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_002.mp4",
+                "video_results": 0.7661989870223593
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_007.mp4",
+                "video_results": 0.9841531850397587
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_004.mp4",
+                "video_results": 0.8833166833253617
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_003.mp4",
+                "video_results": 0.9494127811903649
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_007.mp4",
+                "video_results": 0.9760932922363281
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_001.mp4",
+                "video_results": 0.8345438478157875
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_005.mp4",
+                "video_results": 0.9471980707442507
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_000.mp4",
+                "video_results": 0.9903677980950538
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_001.mp4",
+                "video_results": 0.8833060949406726
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_007.mp4",
+                "video_results": 0.9846952222287655
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_004.mp4",
+                "video_results": 0.7805233226811632
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_005.mp4",
+                "video_results": 0.5767447009999701
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_005.mp4",
+                "video_results": 0.5882048816122907
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_007.mp4",
+                "video_results": 0.9978998551766077
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_007.mp4",
+                "video_results": 0.9849211138983568
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_002.mp4",
+                "video_results": 0.6561462270452622
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_004.mp4",
+                "video_results": 0.958504800466781
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_003.mp4",
+                "video_results": 0.9295512964116767
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_004.mp4",
+                "video_results": 0.9457067676047062
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_002.mp4",
+                "video_results": 0.814386119867893
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_003.mp4",
+                "video_results": 0.8739622956577767
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_000.mp4",
+                "video_results": 0.9706252838702912
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_003.mp4",
+                "video_results": 0.8317420758465504
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_000.mp4",
+                "video_results": 0.8937309438243826
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_007.mp4",
+                "video_results": 0.9734405974547068
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_002.mp4",
+                "video_results": 0.9744411605469724
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_001.mp4",
+                "video_results": 0.6739975201322678
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_000.mp4",
+                "video_results": 0.9630292292605055
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_005.mp4",
+                "video_results": 0.9659130585954544
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_005.mp4",
+                "video_results": 0.7208036710607245
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_002.mp4",
+                "video_results": 0.8802083965311659
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_003.mp4",
+                "video_results": 0.8445191212156986
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_006.mp4",
+                "video_results": 0.9866115171858605
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_005.mp4",
+                "video_results": 0.9496313783716648
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_006.mp4",
+                "video_results": 0.9714670542706835
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_001.mp4",
+                "video_results": 0.9862671393029233
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_004.mp4",
+                "video_results": 0.7760417166542499
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_006.mp4",
+                "video_results": 0.773276021505924
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_006.mp4",
+                "video_results": 0.9719211573296405
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_005.mp4",
+                "video_results": 0.868654433400073
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_005.mp4",
+                "video_results": 0.8888578319803198
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_004.mp4",
+                "video_results": 0.9413048669378808
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_007.mp4",
+                "video_results": 0.9972257626553377
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_003.mp4",
+                "video_results": 0.9401445021020606
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_004.mp4",
+                "video_results": 0.8919235805564738
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_000.mp4",
+                "video_results": 0.9916794243011069
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_003.mp4",
+                "video_results": 0.8700459402926425
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_006.mp4",
+                "video_results": 0.9003810400658465
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_002.mp4",
+                "video_results": 0.9464854059067178
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_001.mp4",
+                "video_results": 0.7541017475280356
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_004.mp4",
+                "video_results": 0.8548367657559983
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_003.mp4",
+                "video_results": 0.8618395623374493
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_002.mp4",
+                "video_results": 0.9341517623434675
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_003.mp4",
+                "video_results": 0.9041327669265422
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_007.mp4",
+                "video_results": 0.9663647984464964
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_004.mp4",
+                "video_results": 0.9397586660182222
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_000.mp4",
+                "video_results": 0.8475466541787411
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_000.mp4",
+                "video_results": 0.9683761140133472
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_001.mp4",
+                "video_results": 0.7689964140349246
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_001.mp4",
+                "video_results": 0.754741499398617
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_000.mp4",
+                "video_results": 0.8714357417948703
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_004.mp4",
+                "video_results": 0.8402532377141587
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_006.mp4",
+                "video_results": 0.9583198269631
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_006.mp4",
+                "video_results": 0.6574130836636463
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_005.mp4",
+                "video_results": 0.8583817139584967
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_002.mp4",
+                "video_results": 0.8264683748179293
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_001.mp4",
+                "video_results": 0.7475794193909523
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_007.mp4",
+                "video_results": 0.972107877333959
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_000.mp4",
+                "video_results": 0.937910778091309
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_005.mp4",
+                "video_results": 0.9169855358752799
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_001.mp4",
+                "video_results": 0.944787287965734
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_002.mp4",
+                "video_results": 0.7221554016813319
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_006.mp4",
+                "video_results": 0.987493948099461
+            }
+        ]
+    ],
+    "background_consistency": [
+        0.931493172361898,
+        [
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_001.mp4",
+                "video_results": 0.9080317071143617,
+                "video_sim": 42.677490234375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_007.mp4",
+                "video_results": 0.9838358561197916,
+                "video_sim": 23.612060546875,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_000.mp4",
+                "video_results": 0.9241813497340425,
+                "video_sim": 43.4365234375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_003.mp4",
+                "video_results": 0.9370896359707447,
+                "video_sim": 44.043212890625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_006.mp4",
+                "video_results": 0.9745626246675532,
+                "video_sim": 45.804443359375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_006.mp4",
+                "video_results": 0.9815284242021277,
+                "video_sim": 46.1318359375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_002.mp4",
+                "video_results": 0.9508498171542553,
+                "video_sim": 44.68994140625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_002.mp4",
+                "video_results": 0.8617644614361702,
+                "video_sim": 40.5029296875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_007.mp4",
+                "video_results": 0.9836324055989584,
+                "video_sim": 23.607177734375,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_004.mp4",
+                "video_results": 0.9605323304521277,
+                "video_sim": 45.14501953125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_003.mp4",
+                "video_results": 0.9744483460771277,
+                "video_sim": 45.799072265625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_007.mp4",
+                "video_results": 0.954345703125,
+                "video_sim": 22.904296875,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_001.mp4",
+                "video_results": 0.9434996259973404,
+                "video_sim": 44.344482421875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_005.mp4",
+                "video_results": 0.921152967087766,
+                "video_sim": 43.294189453125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_000.mp4",
+                "video_results": 0.9864216256648937,
+                "video_sim": 46.36181640625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_001.mp4",
+                "video_results": 0.9119327626329787,
+                "video_sim": 42.86083984375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_007.mp4",
+                "video_results": 0.9485880533854166,
+                "video_sim": 22.76611328125,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_004.mp4",
+                "video_results": 0.9031021442819149,
+                "video_sim": 42.44580078125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_005.mp4",
+                "video_results": 0.8447733128324468,
+                "video_sim": 39.704345703125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_005.mp4",
+                "video_results": 0.730357068650266,
+                "video_sim": 34.3267822265625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_007.mp4",
+                "video_results": 0.9969991048177084,
+                "video_sim": 23.927978515625,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_007.mp4",
+                "video_results": 0.9820149739583334,
+                "video_sim": 23.568359375,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_002.mp4",
+                "video_results": 0.7857743932845744,
+                "video_sim": 36.931396484375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_004.mp4",
+                "video_results": 0.9601011884973404,
+                "video_sim": 45.124755859375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_003.mp4",
+                "video_results": 0.9449488863031915,
+                "video_sim": 44.41259765625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_004.mp4",
+                "video_results": 0.9462267287234043,
+                "video_sim": 44.47265625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_002.mp4",
+                "video_results": 0.8875810339095744,
+                "video_sim": 41.71630859375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_003.mp4",
+                "video_results": 0.9402686585771277,
+                "video_sim": 44.192626953125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_000.mp4",
+                "video_results": 0.957290974069149,
+                "video_sim": 44.99267578125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_003.mp4",
+                "video_results": 0.9561845495345744,
+                "video_sim": 44.940673828125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_000.mp4",
+                "video_results": 0.9461020611702128,
+                "video_sim": 44.466796875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_007.mp4",
+                "video_results": 0.9692586263020834,
+                "video_sim": 23.26220703125,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_002.mp4",
+                "video_results": 0.985600897606383,
+                "video_sim": 46.3232421875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_001.mp4",
+                "video_results": 0.834976520944149,
+                "video_sim": 39.243896484375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_000.mp4",
+                "video_results": 0.9716485206117021,
+                "video_sim": 45.66748046875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_005.mp4",
+                "video_results": 0.9699031748670213,
+                "video_sim": 45.58544921875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_005.mp4",
+                "video_results": 0.9187427277260638,
+                "video_sim": 43.180908203125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_002.mp4",
+                "video_results": 0.9590155418882979,
+                "video_sim": 45.07373046875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_003.mp4",
+                "video_results": 0.9273447888962766,
+                "video_sim": 43.585205078125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_006.mp4",
+                "video_results": 0.9752327127659575,
+                "video_sim": 45.8359375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_005.mp4",
+                "video_results": 0.9652229471409575,
+                "video_sim": 45.365478515625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_006.mp4",
+                "video_results": 0.9668644032579787,
+                "video_sim": 45.442626953125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_001.mp4",
+                "video_results": 0.9785571808510638,
+                "video_sim": 45.9921875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_004.mp4",
+                "video_results": 0.8544142702792553,
+                "video_sim": 40.157470703125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_006.mp4",
+                "video_results": 0.886235663231383,
+                "video_sim": 41.653076171875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_006.mp4",
+                "video_results": 0.973128947805851,
+                "video_sim": 45.737060546875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_005.mp4",
+                "video_results": 0.9397180435505319,
+                "video_sim": 44.166748046875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_005.mp4",
+                "video_results": 0.9508705950797872,
+                "video_sim": 44.69091796875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_004.mp4",
+                "video_results": 0.9637009640957447,
+                "video_sim": 45.2939453125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_007.mp4",
+                "video_results": 0.9953409830729166,
+                "video_sim": 23.88818359375,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_003.mp4",
+                "video_results": 0.9555040724734043,
+                "video_sim": 44.90869140625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_004.mp4",
+                "video_results": 0.9629425698138298,
+                "video_sim": 45.25830078125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_000.mp4",
+                "video_results": 0.9351053440824468,
+                "video_sim": 43.949951171875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_003.mp4",
+                "video_results": 0.931167927194149,
+                "video_sim": 43.764892578125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_006.mp4",
+                "video_results": 0.9522575216090425,
+                "video_sim": 44.756103515625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_002.mp4",
+                "video_results": 0.9554417386968085,
+                "video_sim": 44.90576171875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_001.mp4",
+                "video_results": 0.8816281582446809,
+                "video_sim": 41.4365234375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_004.mp4",
+                "video_results": 0.9467409823803191,
+                "video_sim": 44.496826171875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_003.mp4",
+                "video_results": 0.9461695894281915,
+                "video_sim": 44.469970703125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_002.mp4",
+                "video_results": 0.9547924285239362,
+                "video_sim": 44.875244140625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_003.mp4",
+                "video_results": 0.9387778424202128,
+                "video_sim": 44.12255859375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_007.mp4",
+                "video_results": 0.9724527994791666,
+                "video_sim": 23.3388671875,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_004.mp4",
+                "video_results": 0.9736120345744681,
+                "video_sim": 45.759765625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_000.mp4",
+                "video_results": 0.899185505319149,
+                "video_sim": 42.26171875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_000.mp4",
+                "video_results": 0.9698148686835106,
+                "video_sim": 45.581298828125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_001.mp4",
+                "video_results": 0.9135170794547872,
+                "video_sim": 42.935302734375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_001.mp4",
+                "video_results": 0.8888121259973404,
+                "video_sim": 41.774169921875,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_000.mp4",
+                "video_results": 0.9242852393617021,
+                "video_sim": 43.44140625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_004.mp4",
+                "video_results": 0.9134183843085106,
+                "video_sim": 42.9306640625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_006.mp4",
+                "video_results": 0.9265396442819149,
+                "video_sim": 43.54736328125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_006.mp4",
+                "video_results": 0.8242395279255319,
+                "video_sim": 38.7392578125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_005.mp4",
+                "video_results": 0.9054656333111702,
+                "video_sim": 42.556884765625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_002.mp4",
+                "video_results": 0.8895029920212766,
+                "video_sim": 41.806640625,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_001.mp4",
+                "video_results": 0.8361322930518617,
+                "video_sim": 39.2982177734375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_007.mp4",
+                "video_results": 0.908935546875,
+                "video_sim": 21.814453125,
+                "cnt_per_video": 24
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_000.mp4",
+                "video_results": 0.9888474484707447,
+                "video_sim": 46.475830078125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_005.mp4",
+                "video_results": 0.9501641456117021,
+                "video_sim": 44.65771484375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_001.mp4",
+                "video_results": 0.9557793799867021,
+                "video_sim": 44.921630859375,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_002.mp4",
+                "video_results": 0.8507729388297872,
+                "video_sim": 39.986328125,
+                "cnt_per_video": 47
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_006.mp4",
+                "video_results": 0.979736328125,
+                "video_sim": 46.047607421875,
+                "cnt_per_video": 47
+            }
+        ]
+    ],
+    "motion_smoothness": [
+        0.9909745139868609,
+        [
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_001.mp4",
+                "video_results": 0.9892039610492446
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_007.mp4",
+                "video_results": 0.9958595229426088
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_000.mp4",
+                "video_results": 0.9940714838446449
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_003.mp4",
+                "video_results": 0.9928360430159886
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_006.mp4",
+                "video_results": 0.9931351746767547
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_006.mp4",
+                "video_results": 0.9959561914949447
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_002.mp4",
+                "video_results": 0.9920093948698139
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_002.mp4",
+                "video_results": 0.9866480063090051
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_007.mp4",
+                "video_results": 0.9956074994137315
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_004.mp4",
+                "video_results": 0.9804809238069725
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_003.mp4",
+                "video_results": 0.9907907964354503
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_007.mp4",
+                "video_results": 0.9957102801937712
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_001.mp4",
+                "video_results": 0.9834184653720083
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_005.mp4",
+                "video_results": 0.9923089281203625
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_000.mp4",
+                "video_results": 0.9970339183093043
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_001.mp4",
+                "video_results": 0.9916814874387254
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_007.mp4",
+                "video_results": 0.9952303440315411
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_004.mp4",
+                "video_results": 0.9887780034870228
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_005.mp4",
+                "video_results": 0.9916766563358435
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_005.mp4",
+                "video_results": 0.986646413640436
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_007.mp4",
+                "video_results": 0.9969437491962448
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_007.mp4",
+                "video_results": 0.9973579398242708
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_002.mp4",
+                "video_results": 0.9914508116408858
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_004.mp4",
+                "video_results": 0.9899467337282135
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_003.mp4",
+                "video_results": 0.9889429214003939
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_004.mp4",
+                "video_results": 0.9929326568099562
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_002.mp4",
+                "video_results": 0.989422057084686
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_003.mp4",
+                "video_results": 0.987274816916501
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_000.mp4",
+                "video_results": 0.9910331133963247
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_003.mp4",
+                "video_results": 0.9866164871229792
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_000.mp4",
+                "video_results": 0.9864543898351409
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_007.mp4",
+                "video_results": 0.9965256639017489
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_002.mp4",
+                "video_results": 0.9965611946481995
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_001.mp4",
+                "video_results": 0.9884712109091321
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_000.mp4",
+                "video_results": 0.9943646028916439
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_005.mp4",
+                "video_results": 0.9901597679807632
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_005.mp4",
+                "video_results": 0.9916250224475861
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_002.mp4",
+                "video_results": 0.9921296413467762
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_003.mp4",
+                "video_results": 0.989997397313394
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_006.mp4",
+                "video_results": 0.9956354511967161
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_005.mp4",
+                "video_results": 0.9895157257674607
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_006.mp4",
+                "video_results": 0.9929191943018653
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_001.mp4",
+                "video_results": 0.9969587256222486
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_004.mp4",
+                "video_results": 0.9806915641231332
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_006.mp4",
+                "video_results": 0.9876097825716942
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_006.mp4",
+                "video_results": 0.9955433307481607
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_005.mp4",
+                "video_results": 0.9939147240905074
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_005.mp4",
+                "video_results": 0.9918262646502055
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_004.mp4",
+                "video_results": 0.9961081676527075
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_007.mp4",
+                "video_results": 0.9961320642985203
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_003.mp4",
+                "video_results": 0.982674736018854
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_004.mp4",
+                "video_results": 0.9920267169950951
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_000.mp4",
+                "video_results": 0.9969278319356628
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_003.mp4",
+                "video_results": 0.9879119507618365
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_006.mp4",
+                "video_results": 0.9856712115011564
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_002.mp4",
+                "video_results": 0.9861337934718473
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_001.mp4",
+                "video_results": 0.9861988411495335
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_004.mp4",
+                "video_results": 0.9830659935597629
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_003.mp4",
+                "video_results": 0.9917948139786208
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_002.mp4",
+                "video_results": 0.9927264331180339
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_003.mp4",
+                "video_results": 0.9811890645474172
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_007.mp4",
+                "video_results": 0.9958109929591049
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_004.mp4",
+                "video_results": 0.9921788577410131
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_000.mp4",
+                "video_results": 0.9906358762871594
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_000.mp4",
+                "video_results": 0.9938260542718497
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_001.mp4",
+                "video_results": 0.9904084261208006
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_001.mp4",
+                "video_results": 0.9915081301656621
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_000.mp4",
+                "video_results": 0.9862886156450302
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_004.mp4",
+                "video_results": 0.9882048629611869
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_006.mp4",
+                "video_results": 0.9929024469842285
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_006.mp4",
+                "video_results": 0.9904373355899325
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_005.mp4",
+                "video_results": 0.980472176710358
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_002.mp4",
+                "video_results": 0.9886432957077256
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_001.mp4",
+                "video_results": 0.9879307234190979
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_007.mp4",
+                "video_results": 0.9930582910416288
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_000.mp4",
+                "video_results": 0.9966944803359146
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_005.mp4",
+                "video_results": 0.9923623993805453
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_001.mp4",
+                "video_results": 0.9887623057790447
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_002.mp4",
+                "video_results": 0.9901446277622864
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_006.mp4",
+                "video_results": 0.9972211648422453
+            }
+        ]
+    ],
+    "dynamic_degree": [
+        0.5875,
+        [
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_001.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_007.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_000.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_003.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_006.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_006.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_002.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_002.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_007.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_004.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_003.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_007.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_001.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_005.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_000.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_001.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_007.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_004.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_005.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_005.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_007.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_007.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_002.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_004.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_003.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_004.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_002.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_003.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_000.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_003.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_000.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_007.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_002.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_001.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_000.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_005.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_005.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_002.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_003.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_006.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_005.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_006.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_001.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_004.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_006.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_006.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_005.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_005.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_004.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_007.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_003.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_004.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_000.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_003.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_006.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_002.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_001.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_004.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_003.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_002.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_003.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_007.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_004.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_000.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_000.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_001.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_001.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_000.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_004.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_006.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_006.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_005.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_002.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_001.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_007.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_000.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_005.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_001.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_002.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_006.mp4",
+                "video_results": false
+            }
+        ]
+    ],
+    "aesthetic_quality": [
+        0.5930358946323395,
+        [
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_001.mp4",
+                "video_results": 0.6394482851028442
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_007.mp4",
+                "video_results": 0.7433174252510071
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_000.mp4",
+                "video_results": 0.5121977925300598
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_003.mp4",
+                "video_results": 0.5480479001998901
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_006.mp4",
+                "video_results": 0.6062523126602173
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_006.mp4",
+                "video_results": 0.7431389689445496
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_002.mp4",
+                "video_results": 0.4413248896598816
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_002.mp4",
+                "video_results": 0.5760250091552734
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_007.mp4",
+                "video_results": 0.6442372798919678
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_004.mp4",
+                "video_results": 0.5943669676780701
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_003.mp4",
+                "video_results": 0.6372050642967224
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_007.mp4",
+                "video_results": 0.5030066967010498
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_001.mp4",
+                "video_results": 0.5576905012130737
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_005.mp4",
+                "video_results": 0.5711989998817444
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_000.mp4",
+                "video_results": 0.7214239835739136
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_001.mp4",
+                "video_results": 0.4972037672996521
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_007.mp4",
+                "video_results": 0.7089234590530396
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_004.mp4",
+                "video_results": 0.5810679197311401
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_005.mp4",
+                "video_results": 0.5967418551445007
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_005.mp4",
+                "video_results": 0.5769139528274536
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_007.mp4",
+                "video_results": 0.5322837233543396
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_007.mp4",
+                "video_results": 0.5490676760673523
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_002.mp4",
+                "video_results": 0.7290606498718262
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_004.mp4",
+                "video_results": 0.6124001741409302
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_003.mp4",
+                "video_results": 0.5250402688980103
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_004.mp4",
+                "video_results": 0.431425541639328
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_002.mp4",
+                "video_results": 0.6415790915489197
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_003.mp4",
+                "video_results": 0.6637574434280396
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_000.mp4",
+                "video_results": 0.6150752902030945
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_003.mp4",
+                "video_results": 0.6725363731384277
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_000.mp4",
+                "video_results": 0.6451467275619507
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_007.mp4",
+                "video_results": 0.5879839658737183
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_002.mp4",
+                "video_results": 0.6343953013420105
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_001.mp4",
+                "video_results": 0.605190634727478
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_000.mp4",
+                "video_results": 0.664235532283783
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_005.mp4",
+                "video_results": 0.6569052338600159
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_005.mp4",
+                "video_results": 0.47612464427948
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_002.mp4",
+                "video_results": 0.5069366693496704
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_003.mp4",
+                "video_results": 0.6330728530883789
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_006.mp4",
+                "video_results": 0.6622116565704346
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_005.mp4",
+                "video_results": 0.5688444375991821
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_006.mp4",
+                "video_results": 0.5545892715454102
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_001.mp4",
+                "video_results": 0.6088201403617859
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_004.mp4",
+                "video_results": 0.5044163465499878
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_006.mp4",
+                "video_results": 0.6229364275932312
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_006.mp4",
+                "video_results": 0.48993194103240967
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_005.mp4",
+                "video_results": 0.6071603298187256
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_005.mp4",
+                "video_results": 0.6378752589225769
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_004.mp4",
+                "video_results": 0.6132012605667114
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_007.mp4",
+                "video_results": 0.6501533389091492
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_003.mp4",
+                "video_results": 0.43270060420036316
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_004.mp4",
+                "video_results": 0.515235185623169
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_000.mp4",
+                "video_results": 0.7200620174407959
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_003.mp4",
+                "video_results": 0.6135966777801514
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_006.mp4",
+                "video_results": 0.6340413689613342
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_002.mp4",
+                "video_results": 0.6403453946113586
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_001.mp4",
+                "video_results": 0.5175548791885376
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_004.mp4",
+                "video_results": 0.5082075595855713
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_003.mp4",
+                "video_results": 0.6790261268615723
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_002.mp4",
+                "video_results": 0.5979711413383484
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_003.mp4",
+                "video_results": 0.5823527574539185
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_007.mp4",
+                "video_results": 0.46547767519950867
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_004.mp4",
+                "video_results": 0.6082401275634766
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_000.mp4",
+                "video_results": 0.6379812359809875
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_000.mp4",
+                "video_results": 0.6018726825714111
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_001.mp4",
+                "video_results": 0.4412984251976013
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_001.mp4",
+                "video_results": 0.6320292949676514
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_000.mp4",
+                "video_results": 0.5211721658706665
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_004.mp4",
+                "video_results": 0.6154834628105164
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_006.mp4",
+                "video_results": 0.6674503684043884
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_006.mp4",
+                "video_results": 0.47280022501945496
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_005.mp4",
+                "video_results": 0.6513351798057556
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_002.mp4",
+                "video_results": 0.6212232112884521
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_001.mp4",
+                "video_results": 0.6829726099967957
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_007.mp4",
+                "video_results": 0.6846452951431274
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_000.mp4",
+                "video_results": 0.5458030700683594
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_005.mp4",
+                "video_results": 0.5680365562438965
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_001.mp4",
+                "video_results": 0.5793811678886414
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_002.mp4",
+                "video_results": 0.5743037462234497
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_006.mp4",
+                "video_results": 0.5281801223754883
+            }
+        ]
+    ],
+    "imaging_quality": [
+        0.7173613244859378,
+        [
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_001.mp4",
+                "video_results": 70.87077903747559
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_007.mp4",
+                "video_results": 77.3408334350586
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_000.mp4",
+                "video_results": 71.46655654907227
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_003.mp4",
+                "video_results": 68.2064836025238
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_006.mp4",
+                "video_results": 77.11163727442424
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_006.mp4",
+                "video_results": 77.33010164896648
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_002.mp4",
+                "video_results": 71.73720335960388
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_002.mp4",
+                "video_results": 76.61796601613362
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_007.mp4",
+                "video_results": 71.31048461914062
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_004.mp4",
+                "video_results": 78.09705702463786
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_003.mp4",
+                "video_results": 77.99482297897339
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_007.mp4",
+                "video_results": 76.44054321289063
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_001.mp4",
+                "video_results": 74.06829086939494
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_005.mp4",
+                "video_results": 75.62967936197917
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_000.mp4",
+                "video_results": 73.85880867640178
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_001.mp4",
+                "video_results": 72.00950352350871
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_007.mp4",
+                "video_results": 75.75526397705079
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_004.mp4",
+                "video_results": 71.79487546284993
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_005.mp4",
+                "video_results": 75.82961972554524
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_005.mp4",
+                "video_results": 70.43518654505412
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_007.mp4",
+                "video_results": 77.0002490234375
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_007.mp4",
+                "video_results": 59.32375427246094
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_002.mp4",
+                "video_results": 71.28060960769653
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_004.mp4",
+                "video_results": 74.11626402537028
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_003.mp4",
+                "video_results": 69.9570426940918
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_004.mp4",
+                "video_results": 69.8839963277181
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_002.mp4",
+                "video_results": 75.44002374013265
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_003.mp4",
+                "video_results": 75.90314896901448
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_000.mp4",
+                "video_results": 74.96473519007365
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_003.mp4",
+                "video_results": 72.31262445449829
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_000.mp4",
+                "video_results": 79.48674583435059
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_007.mp4",
+                "video_results": 73.6467529296875
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_002.mp4",
+                "video_results": 71.80846055348714
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_001.mp4",
+                "video_results": 74.552233060201
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_000.mp4",
+                "video_results": 77.69450902938843
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_005.mp4",
+                "video_results": 69.78829431533813
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_005.mp4",
+                "video_results": 70.98739671707153
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_002.mp4",
+                "video_results": 75.24353647232056
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_003.mp4",
+                "video_results": 74.63153441747029
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_006.mp4",
+                "video_results": 74.22051509221394
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_005.mp4",
+                "video_results": 76.28551610310872
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__005_T2V-1_3-A__win_006.mp4",
+                "video_results": 76.28495025634766
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_001.mp4",
+                "video_results": 73.61620394388835
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_004.mp4",
+                "video_results": 73.8098217646281
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_006.mp4",
+                "video_results": 74.96078125635783
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_006.mp4",
+                "video_results": 74.49022928873698
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_005.mp4",
+                "video_results": 51.8726011912028
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_005.mp4",
+                "video_results": 73.04293727874756
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_004.mp4",
+                "video_results": 75.58402919769287
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_007.mp4",
+                "video_results": 76.45675323486329
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_003.mp4",
+                "video_results": 60.89660310745239
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_004.mp4",
+                "video_results": 56.20572487513224
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_000.mp4",
+                "video_results": 67.53524351119995
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_003.mp4",
+                "video_results": 67.71710364023845
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__001_T2V-1_1-A__win_006.mp4",
+                "video_results": 74.91821273167928
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_002.mp4",
+                "video_results": 70.69967357317607
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_001.mp4",
+                "video_results": 75.97229258219402
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_004.mp4",
+                "video_results": 65.60341652234395
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__008_T2V-1_4-B__win_003.mp4",
+                "video_results": 68.06124146779378
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_002.mp4",
+                "video_results": 56.13421185811361
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_003.mp4",
+                "video_results": 62.26868756612142
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_007.mp4",
+                "video_results": 71.85910095214844
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_004.mp4",
+                "video_results": 74.0314548810323
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_000.mp4",
+                "video_results": 73.74986680348714
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_000.mp4",
+                "video_results": 75.95676040649414
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_001.mp4",
+                "video_results": 73.847399075826
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__007_T2V-1_4-A__win_001.mp4",
+                "video_results": 73.14356931050618
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_000.mp4",
+                "video_results": 67.1927998860677
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_004.mp4",
+                "video_results": 68.50831874211629
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_006.mp4",
+                "video_results": 68.0193468729655
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__002_T2V-1_1-B__win_006.mp4",
+                "video_results": 71.0618543624878
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_005.mp4",
+                "video_results": 76.78076426188152
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_002.mp4",
+                "video_results": 68.5942354996999
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__006_T2V-1_3-B__win_001.mp4",
+                "video_results": 75.72443151473999
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__010_T2V-1_5-B__win_007.mp4",
+                "video_results": 68.63112701416016
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__004_T2V-1_2-B__win_000.mp4",
+                "video_results": 65.84741409619649
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_005.mp4",
+                "video_results": 71.19549973805745
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_001.mp4",
+                "video_results": 65.4724604288737
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__003_T2V-1_2-A__win_002.mp4",
+                "video_results": 70.05329847335815
+            },
+            {
+                "video_path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_10_20261105/_batch/windows/seedance2_0-mini__009_T2V-1_5-A__win_006.mp4",
+                "video_results": 60.65653498967489
+            }
+        ]
+    ]
+}

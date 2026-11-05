@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "048_T2V-3.6-B",
+    "prompt": "生成一段15秒、4:3横屏的真人历史建筑漫剧片段，漫剧真人影像。\n\n傍晚石阶庭院，一位穿灰蓝长袍的成年男子从石阶下方向上行走；两侧石栏、后方三扇木窗和门洞构成清楚的建筑结构，暖色壁灯固定。场景中的人物均为成年人。\n\n构图与光影：壁灯暖光与蓝暮色分层，石栏竖线、三扇木窗保持透视秩序。\n\n镜1（0—2.25秒）·大全景：庭院低位，男子迈上前两级石阶。\n镜2（2.25—4.5秒）·特写：手掌将触右石栏，袖口与栏沿清楚。\n镜3（4.5—10.5秒）·全景：从侧后连续跟上六秒，登完台阶、踏上平台、扶稳石栏。\n镜4（10.5—12.75秒）·近景：平台反侧，他转头望台阶下，脸与窗框同框。\n镜5（12.75—15秒）·中景：沿栏短移，他移开手、沿平台前进半步，窗门仍为原布局。\n\n必须保持：石阶、栏杆、木窗和门洞在跟拍中结构稳定且前后可对应。不能在人物身后无因生成新门、减少窗户或重排台阶。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/048_T2V-3.6-B/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/048_T2V-3.6-B/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 1112,
+    "height": 834
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 4,
+      "physical_consistency": 3
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a generated video with a 15-second duration, 4:3 aspect ratio, depicting a man in gray robes walking up stone steps in an evening courtyard.\" \n\nVisual Quality Analysis:\nThe overall visual quality is moderate (score 3). The frames show decent resolution and clear depiction of the man's face, hair, and clothing, with warm lighting that evokes evening ambiance. However, there are occasional minor artifacts and slight inconsistencies in color grading or edge sharpness across frames, which prevent a higher rating. The architectural details remain legible, and the scene maintains a coherent look throughout.\n\nText-to-Video Alignment Analysis:\nAlignment to the prompt is strong (score 4). The video presents a man in gray robes in a courtyard setting with traditional architecture, and the lighting suggests evening. The sequence captures the general idea of the prompt, though it does not depict active walking up the steps; the subject appears stationary at the top in several frames. Overall, most key elements are present and well-represented, with only a minor deviation regarding motion.\n\nPhysical/Common-sense Consistency:\nOverall consistency is moderate (score 3). The character’s proportions, clothing drape, and interaction with the railing read as natural, and the architectural scale remains plausible. There are no major physics violations, but subtle cues—such as hand positioning and minor perspective shifts—could be refined to improve realism further.\n</think>\n\n(1) visual quality: 3\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 3\n"
+  },
+  "input_fingerprint": "0a8ad2201bcc61f4f0b4f1418159db268c7975de4f610874209f3db994abf069"
+}

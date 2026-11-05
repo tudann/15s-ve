@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "054_T2V-4.3-B",
+    "prompt": "生成一段15秒、1:1方形画幅的真人海边时尚短片，真人影像。\n\n成年混血男性留深棕色及颈卷发，穿暗橙色亚麻衬衫，沿海边低矮石墙行走；阴天柔光和轻风让卷发自然摆动。场景中的人物均为成年人。\n\n构图与光影：海岸阴天柔光，深棕卷发在浅海面前可辨，风向与衣摆一致。\n\n镜1（0—2.5秒）·大全景：石墙沿海斜构图，他沿墙正常前行。\n镜2（2.5—4.5秒）·近景：侧前伴随，及颈卷发随步伐弹动。\n镜3（4.5—9.5秒）·全景：迎风转头望海、撑住石墙再松手，发丝自然摆动全过程可见。\n镜4（9.5—12秒）·特写：颈侧卷发回落，发根连于头部。\n镜5（12—15秒）·中景：反侧跟走，他转回前方、抬手压发后放下，原长度仍可见。\n\n必须保持：动态风吹与视角变化没有改变发型、发色或头发长度。发丝可以运动，不能凭空长长、缩短或直卷互换。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/054_T2V-4.3-B/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/054_T2V-4.3-B/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 960,
+    "height": 960
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 4,
+      "physical_consistency": 3
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt.\n\nThe text prompt asks for: \"生成一段15秒、1:1方形画幅的真人海边时尚短片，真人影像\" (Generate a 15-second, 1:1 square format real person beach fashion short film).\n\nLooking at the frames:\n\nVisual Quality Analysis:\n- The overall visual quality is moderate. The resolution is adequate but not high-end; some frames show mild softness or minor compression artifacts that slightly affect fine detail.\n- Lighting remains generally natural with consistent exposure across most shots, though occasional slight color shifts are visible.\n- Color grading is acceptable but not particularly rich or punchy; contrast is reasonable without dramatic swings.\n- Transitions between shots are smooth, and there are no obvious distortions or major visual glitches.\n- Overall, the visuals are serviceable and coherent, but they do not reach high-end production quality.\n\nText-to-Video Alignment Analysis:\n- The video largely aligns with the prompt: it features a real person in a seaside setting, with a brown shirt and dark pants, and the subject appears to be near a stone wall or promenade.\n- The framing is predominantly 1:1, and the scene conveys a fashion-oriented mood through styling and pacing.\n- While the alignment is strong overall, there may be minor deviations in framing consistency or pacing that prevent a perfect match.\n\nPhysical Consistency Analysis:\n- The subject’s movements and interactions feel natural, and hair movement responds plausibly to wind and motion.\n- Lighting and shadows stay coherent with the environment, supporting a believable scene.\n- There are no glaring physical inconsistencies, though very subtle timing or interaction nuances could be refined to enhance realism.\n\nOverall assessment:\n- Visual Quality: moderate (3)\n- Text-to-Video Alignment: strong (4)\n- Physical Consistency: moderate (3)\n\n</think>\n\n(1) visual quality: 3\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 3\n"
+  },
+  "input_fingerprint": "25f9c245ffaff258a81b5eaf80cdd47ab8b1416c948a3bd6f81c210fab1b2a3e"
+}

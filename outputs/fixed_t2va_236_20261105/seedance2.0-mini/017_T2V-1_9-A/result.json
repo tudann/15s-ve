@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "017_T2V-1.9-A",
+    "prompt": "生成一段15秒、16:9横屏的三维动画双人剧情片段，采用三维动画风格。\n\n傍晚庭院，两位成年姐妹在木门旁告别。近处姐姐穿深棕外套、短发，远处妹妹穿浅蓝衬衫、长辫；门外是柔和暖色暮光，墙面为米灰色。场景中的人物均为成年人。\n\n构图与光影：门框与姐姐肩部套框，妹妹脸上暖暮光，姐姐前景暗而可辨。\n\n镜1（0—2秒）·中景：姐姐肩后滑入，妹妹握布包、目光对上姐姐。\n镜2（2—4秒）·特写：保留姐姐肩缘作前景，妹妹收紧包带后放松。\n镜3（4—9秒）·全景：姐姐同侧肩后较宽取景，妹妹点头、向门侧退半步。\n镜4（9—12秒）·近景：侧向跟随但仍留肩前景，妹妹回头欲言又止。\n镜5（12—15秒）·中景：回较宽过肩，姐姐让出门路，妹妹整好布包迈向门口。\n\n必须保持：真实的肩部前景、对话对象和过肩机位共同可见。不能用单人正面特写或两人并排正面构图替代过肩镜头。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/017_T2V-1.9-A/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/017_T2V-1.9-A/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 1280,
+    "height": 720
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 4,
+      "text_video_alignment": 4,
+      "physical_consistency": 4
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt.\n\nThe text prompt asks for: \"生成一段15秒、16:9横屏的三维动画双人剧情片段，采用三维动画风格\" (Generate a 15-second, 16:9 landscape two-person plot in 3D animation style).\n\nLooking at the frames:\n\nVisual Quality Analysis:\n- The video presents a high-quality 3D animated scene with clear rendering and consistent lighting.\n- The character models are well-designed with natural proportions and believable facial features.\n- Textures on clothing and environment are detailed, and the background architecture reads as coherent within the scene.\n- Lighting remains warm and atmospheric, contributing to a cinematic feel.\n- There are no obvious visual artifacts or distortions; overall clarity is strong across frames.\n- While the visuals are polished, there may be minor imperfections typical of stylized animation that prevent a perfect top score.\n\nText-to-Video Alignment Analysis:\n- The output adheres to the requested format: 3D animation, two characters, and a 16:9 landscape aspect ratio, with a 15-second duration.\n- The scene depicts two adult women in conversation near a doorway, with one wearing a brown jacket and the other in a light blue shirt, matching the described outfits.\n- The setting includes wooden doors and warm evening lighting, aligning with the prompt’s mood and context.\n- The framing and camera work support a two-person interaction, and the pacing appears consistent with a natural conversation.\n- Overall alignment with the prompt is strong, with only minor deviations in pacing or framing that do not significantly detract from the intended narrative.\n\nPhysical Consistency / Common-sense:\n- Proportions, gestures, and interactions read as natural and plausible within the scene.\n- Lighting, shadows, and environmental details are coherent with the time of day and setting.\n- No obvious physics violations or implausible elements are present; the scene maintains internal consistency throughout.\n- Some very minor inconsistencies could exist due to stylization or frame sampling, but they do not undermine overall plausibility.\n\nOverall assessment:\n- Visual quality is strong and consistent with professional 3D animation standards.\n- Text-to-video alignment is solid, capturing the core elements of the prompt with only minor deviations.\n- Physical/common-sense consistency is robust, supporting a believable scene.\n\n</think>\n\n(1) visual quality: 4\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 4\n"
+  },
+  "input_fingerprint": "78dcb10b515be3a11c72968445a387cc8fe644ae414b1210c60f6b6f372e3f78"
+}

@@ -1,0 +1,69 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "incomplete",
+  "reasons": [],
+  "sample": {
+    "id": "026_T2V-2.2-B",
+    "prompt": "生成一段15秒、16:9横屏的真人手工收藏纪录片，真人影像。\n\n木质修复台旁，一位穿浅蓝工作衬衫的成年男性收藏者双手托一台无品牌黑色金属机械相机。台灯从右上方照出皮革包覆、金属旋钮和细小磨损。场景中的人物均为成年人。\n\n构图与光影：台灯硬软交界擦出旋钮沟槽，木台低亮，黑皮革保留层次。\n\n镜1（0—1.5秒）·特写：机身落入掌心，磨损边角先入画。\n镜2（1.5—4秒）·中景：桌角斜拍，收藏者托起相机看向光源。\n镜3（4—7秒）·微距：侧轨贴近旋钮，拇指拨动一格，细槽与皮纹分开。\n镜4（7—10秒）·近景：过肩看机身转向侧面，另一手接稳底座。\n镜5（10—12.5秒）·全景：桌边后撤，他检查背部、把机身转回三分之二侧面。\n镜6（12.5—15秒）·特写：指腹擦过包皮边缘后移开，金属与皮革细节不糊成印花。\n\n必须保持：皮革颗粒、金属细槽、使用磨痕与手部皮肤细节彼此区分。相机不出现可读品牌文字，细节不能变成随机印花。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。不添加未要求的字幕、文字、品牌标志或水印。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/026_T2V-2.2-B/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/026_T2V-2.2-B/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 1280,
+    "height": 720
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 4,
+      "physical_consistency": 3
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a 15-second, 16:9 horizontal documentary-style clip featuring a craftsman at a wooden workbench, wearing a light blue work shirt, handling an old-style camera in a workshop setting.\" \n\nVisual Quality Analysis:\nThe overall visual quality is moderate (3/5). The frames show decent detail with some softness and occasional minor artifacts, but no severe distortions. Lighting remains generally stable across shots, and color grading is consistent. The sequence maintains reasonable sharpness and coherence, though it does not reach high-end clarity.\n\nText-to-Video Alignment Analysis:\nThe video largely aligns with the prompt: a craftsman at a wooden workbench, wearing a light blue work shirt, handling an old-style camera in a workshop setting, captured in a 16:9 aspect ratio. The framing and subject matter match the requested elements well, yielding strong alignment overall (4/5). Minor deviations may exist in pacing or framing nuances, but they do not significantly detract from the alignment.\n\nPhysical/Common-sense Consistency:\nInteractions between hands, camera, and workspace appear plausible and coherent with real-world physics. There are no obvious violations of common sense, and the scene reads as a believable workshop activity. Overall, physical consistency is moderate (3/5).\n\n</think>\n\n(1) visual quality: 3\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 3\n"
+  },
+  "input_fingerprint": "de4fe68b6beff1484c41e4380f386fdcdc9cba364af961a287cebbb18c52b385"
+}
