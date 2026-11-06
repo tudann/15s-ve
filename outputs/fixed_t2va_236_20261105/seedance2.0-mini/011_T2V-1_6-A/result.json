@@ -1,6 +1,6 @@
 {
   "dimension": "21. 整段保持与提示遵循",
-  "status": "incomplete",
+  "status": "complete",
   "reasons": [],
   "sample": {
     "id": "011_T2V-1.6-A",
@@ -65,5 +65,425 @@
     "context_version": 2,
     "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a 15-second, 9:16 vertical video depicting a paper-art stop-motion animation of a woman returning home in the rain, with an umbrella, inside an apartment door.\" \n\nVisual Quality Analysis:\nThe video adopts a deliberate low-poly paper-art aesthetic with clean lines and consistent lighting. The visuals are coherent and visually appealing within that style, but they do not push toward photorealism or high-fidelity detail. Overall, visual quality is moderate (3/5).\n\nText-to-Video Alignment Analysis:\nThe scene captures several key prompt elements—woman, rain visible through the doorway, an umbrella, and an indoor apartment setting with a door. However, the core requirement of a paper-art stop-motion animation is not convincingly realized; the motion reads more like static poses than fluid animation, reducing alignment to a moderate level (3/5).\n\nPhysical/Common-sense Consistency:\nSpatial relationships and interactions (umbrella placement, door, rain outside) are plausible and consistent with everyday physics. There are no obvious violations, though some micro-dynamics could be refined to enhance believability. Overall, physical/common-sense consistency is moderate (3/5).\n\nOverall assessment:\nThe work demonstrates solid technical execution within the chosen artistic style, but it does not fully satisfy the dynamic animation expectations of the prompt. The three dimensions align with a mid-level evaluation across Visual Quality, Text-to-Video Alignment, and Physical Consistency.\n</think>\n\n(1) visual quality: 3\n(2) text-to-video alignment: 3\n(3) physical/common-sense consistency: 3\n"
   },
-  "input_fingerprint": "baad05013f44993b2412a1eac1fa04b107487ec12da90fdb1133f080ad7ac24c"
+  "input_fingerprint": "baad05013f44993b2412a1eac1fa04b107487ec12da90fdb1133f080ad7ac24c",
+  "technical": {
+    "status": "ok",
+    "gpu": "4",
+    "window_seconds": 2.0,
+    "unused_tail_seconds": 0.0,
+    "windows": [
+      {
+        "index": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/011_T2V-1_6-A/windows/win_000.mp4"
+      },
+      {
+        "index": 1,
+        "start": 2.0,
+        "end": 4.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/011_T2V-1_6-A/windows/win_001.mp4"
+      },
+      {
+        "index": 2,
+        "start": 4.0,
+        "end": 6.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/011_T2V-1_6-A/windows/win_002.mp4"
+      },
+      {
+        "index": 3,
+        "start": 6.0,
+        "end": 8.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/011_T2V-1_6-A/windows/win_003.mp4"
+      },
+      {
+        "index": 4,
+        "start": 8.0,
+        "end": 10.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/011_T2V-1_6-A/windows/win_004.mp4"
+      },
+      {
+        "index": 5,
+        "start": 10.0,
+        "end": 12.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/011_T2V-1_6-A/windows/win_005.mp4"
+      },
+      {
+        "index": 6,
+        "start": 12.0,
+        "end": 14.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/011_T2V-1_6-A/windows/win_006.mp4"
+      },
+      {
+        "index": 7,
+        "start": 14.0,
+        "end": 15.1,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/011_T2V-1_6-A/windows/win_007.mp4"
+      }
+    ],
+    "dimensions": {
+      "subject_consistency": {
+        "mean": 0.881206,
+        "worst_window": {
+          "index": 5,
+          "start": 10.0,
+          "score": 0.760469
+        },
+        "first_last_gap": 0.009061,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.929592
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.84971
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.898822
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.953186
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.796007
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.760469
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.941335
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.920531
+          }
+        ]
+      },
+      "background_consistency": {
+        "mean": 0.921098,
+        "worst_window": {
+          "index": 5,
+          "start": 10.0,
+          "score": 0.884386
+        },
+        "first_last_gap": -0.036359,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.900775
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.908712
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.92081
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.950528
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.90224
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.884386
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.9642
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.937134
+          }
+        ]
+      },
+      "motion_smoothness": {
+        "mean": 0.989166,
+        "worst_window": {
+          "index": 7,
+          "start": 14.0,
+          "score": 0.98696
+        },
+        "first_last_gap": 0.001421,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.988382
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.988341
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.989773
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.992405
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.987595
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.987759
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.992111
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.98696
+          }
+        ]
+      },
+      "dynamic_degree": {
+        "mean": 0.875,
+        "worst_window": {
+          "index": 2,
+          "start": 4.0,
+          "score": 0.0
+        },
+        "first_last_gap": 0.0,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 1.0
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 1.0
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.0
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 1.0
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 1.0
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 1.0
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 1.0
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 1.0
+          }
+        ]
+      },
+      "aesthetic_quality": {
+        "mean": 0.550832,
+        "worst_window": {
+          "index": 2,
+          "start": 4.0,
+          "score": 0.449614
+        },
+        "first_last_gap": 0.068422,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.612787
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.48501
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.449614
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.607743
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.551832
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.556767
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.598539
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.544366
+          }
+        ]
+      },
+      "imaging_quality": {
+        "mean": 0.75393,
+        "worst_window": {
+          "index": 4,
+          "start": 8.0,
+          "score": 0.715922
+        },
+        "first_last_gap": 0.026031,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.766107
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.763691
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.76377
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.76347
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.715922
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.757611
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.760794
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.740076
+          }
+        ]
+      }
+    },
+    "raw_results": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/_batch/vbench/windows_eval_results.json"
+  },
+  "final": {
+    "scale": [
+      1,
+      5
+    ],
+    "score": 3.64,
+    "technical_weight": 0.5,
+    "judge_weight": 0.5,
+    "technical_score": 4.28,
+    "judge_score": 3.0,
+    "technical_components": {
+      "subject_consistency": {
+        "unit": 0.816307,
+        "score": 4.27,
+        "weight": 0.4
+      },
+      "background_consistency": {
+        "unit": 0.902742,
+        "score": 4.61,
+        "weight": 0.25
+      },
+      "imaging_quality": {
+        "unit": 0.75393,
+        "score": 4.02,
+        "weight": 0.15
+      },
+      "motion_smoothness": {
+        "unit": 0.989166,
+        "score": 4.96,
+        "weight": 0.1
+      },
+      "aesthetic_quality": {
+        "unit": 0.550832,
+        "score": 3.2,
+        "weight": 0.1
+      }
+    },
+    "judge_components": {
+      "text_video_alignment": {
+        "score": 3.0,
+        "weight": 0.5
+      },
+      "visual_quality": {
+        "score": 3.0,
+        "weight": 0.25
+      },
+      "physical_consistency": {
+        "score": 3.0,
+        "weight": 0.25
+      }
+    },
+    "excluded": [
+      "dynamic_degree"
+    ]
+  }
 }

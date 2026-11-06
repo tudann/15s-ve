@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import pickle
 import subprocess
+from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
@@ -26,30 +27,37 @@ def evaluate_sample(
     allow_shared_gpu: bool = False,
     mode: str = "t2va",
     references: list[dict] | None = None,
+    persist_result: bool = True,
+    existing_record: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     sample_dir = output_dir / _safe_id(sample_id)
     sample_dir.mkdir(parents=True, exist_ok=True)
-    record: dict[str, Any] = {
+    record: dict[str, Any] = deepcopy(existing_record) if existing_record is not None else {
         "dimension": config.dimension,
         "status": "incomplete",
         "reasons": [],
         "sample": {"id": sample_id, "prompt": prompt, "video": str(video), "mode": mode, "references": references or []},
     }
+    record["dimension"] = config.dimension
+    record["sample"] = {"id": sample_id, "prompt": prompt, "video": str(video), "mode": mode, "references": references or []}
+    record.setdefault("reasons", [])
     try:
         media = probe_video(video)
     except (FileNotFoundError, RuntimeError, OSError) as exc:
         record["reasons"].append(str(exc))
-        _write(sample_dir / "result.json", record)
+        if persist_result:
+            _write(sample_dir / "result.json", record)
         return record
     record["media"] = media.as_dict()
 
     if run_judge:
         try:
             record["judge"] = judge_video(media, prompt, config.judge, sample_dir, mode=mode, references=references)
+            record["reasons"] = [reason for reason in record["reasons"] if not str(reason).startswith("裁判：")]
         except (RuntimeError, ValueError, OSError, subprocess.TimeoutExpired) as exc:
             record["judge"] = {"status": "error"}
             record["reasons"].append(f"裁判：{exc}")
-    else:
+    elif not has_judge_scores(record):
         record["reasons"].append("未运行裁判")
 
     if run_technical:
@@ -57,18 +65,20 @@ def evaluate_sample(
             record["technical"] = score_technical(
                 media, sample_dir, config.technical, allow_shared_gpu=allow_shared_gpu,
             )
+            record["reasons"] = [reason for reason in record["reasons"] if not str(reason).startswith("技术分：")]
         except TechnicalUnavailable as exc:
             record["technical"] = {"status": "unavailable"}
             record["reasons"].append(f"技术分：{exc}")
         except (RuntimeError, ValueError, OSError, pickle.UnpicklingError) as exc:
             record["technical"] = {"status": "error"}
             record["reasons"].append(f"技术分：{exc}")
-    elif not defer_technical:
+    elif not defer_technical and not has_technical_scores(record):
         record["reasons"].append("未运行技术分")
 
     record["status"] = "complete" if _is_complete(record) else "incomplete"
     attach_final_score(record, config.final_score)
-    _write(sample_dir / "result.json", record)
+    if persist_result:
+        _write(sample_dir / "result.json", record)
     return record
 
 
@@ -79,6 +89,7 @@ def apply_technical(record: dict[str, Any], technical: dict[str, Any], output_di
     status = technical.get("status")
     if status == "ok":
         record["technical"] = technical
+        record["reasons"] = [reason for reason in record.get("reasons", []) if not str(reason).startswith("技术分：")]
     elif status == "unavailable":
         record["technical"] = {"status": "unavailable"}
         record["reasons"].append(f"技术分：{technical.get('message', '')}")
@@ -113,16 +124,33 @@ def summarize_run(records: list[dict[str, Any]], output_dir: Path) -> dict[str, 
     return summary
 
 
+def read_existing_result(path: Path) -> dict[str, Any] | None:
+    """Load an existing case result without changing it."""
+    if not path.is_file():
+        return None
+    try:
+        record = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+    return record if isinstance(record, dict) else None
+
+
 def _is_complete(record: dict[str, Any]) -> bool:
+    return has_judge_scores(record) and has_technical_scores(record)
+
+
+def has_judge_scores(record: dict[str, Any]) -> bool:
     judge = record.get("judge") or {}
-    technical = record.get("technical") or {}
     scores = judge.get("scores") or {}
-    dimensions = technical.get("dimensions") or {}
-    judge_ok = judge.get("status") == "ok" and set(scores) == {
+    return judge.get("status") == "ok" and set(scores) == {
         "visual_quality", "text_video_alignment", "physical_consistency",
     }
-    technical_ok = technical.get("status") == "ok" and len(dimensions) == 6
-    return judge_ok and technical_ok
+
+
+def has_technical_scores(record: dict[str, Any]) -> bool:
+    technical = record.get("technical") or {}
+    dimensions = technical.get("dimensions") or {}
+    return technical.get("status") == "ok" and len(dimensions) == 6
 
 
 def _group_means(records: list[dict[str, Any]]) -> dict[str, Any]:

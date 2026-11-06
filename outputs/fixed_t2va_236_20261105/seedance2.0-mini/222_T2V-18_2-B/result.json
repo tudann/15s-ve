@@ -2,6 +2,7 @@
   "dimension": "21. 整段保持与提示遵循",
   "status": "incomplete",
   "reasons": [
+    "裁判：裁判输出里没有三行分数",
     "裁判：裁判输出里没有三行分数"
   ],
   "sample": {

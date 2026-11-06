@@ -1,13 +1,21 @@
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 from pipeline.aggregate import scores_by_window, summarize_windows
 from pipeline.config import load_config
 from pipeline.final_score import final_score
 from pipeline.judge import parse_scores, score_prompt
-from pipeline.media import probe_video
-from pipeline.run import _is_complete, summarize_run
+from pipeline.media import MediaInfo, probe_video
+from pipeline.run import (
+    _is_complete,
+    has_judge_scores,
+    has_technical_scores,
+    read_existing_result,
+    evaluate_sample,
+    summarize_run,
+)
 from pipeline.cases import discover_cases, load_eval_run, samples_for_video
 from pipeline.technical import TechnicalUnavailable, choose_gpu
 from pipeline.windows import split_windows
@@ -62,6 +70,91 @@ class JudgeParseTests(unittest.TestCase):
 
 
 class CompletionTests(unittest.TestCase):
+    def test_score_blocks_can_be_reused_independently(self) -> None:
+        record = {
+            "judge": {"status": "ok", "scores": {
+                "visual_quality": 4, "text_video_alignment": 3, "physical_consistency": 5,
+            }},
+            "technical": {"status": "error", "dimensions": {}},
+        }
+
+        self.assertTrue(has_judge_scores(record))
+        self.assertFalse(has_technical_scores(record))
+
+        record["technical"] = {"status": "ok", "dimensions": {name: {} for name in (
+            "subject_consistency", "background_consistency", "motion_smoothness",
+            "dynamic_degree", "aesthetic_quality", "imaging_quality",
+        )}}
+        record["judge"] = {"status": "error", "scores": {}}
+
+        self.assertFalse(has_judge_scores(record))
+        self.assertTrue(has_technical_scores(record))
+
+    def test_existing_judge_block_survives_technical_only_resume(self) -> None:
+        judge = {"status": "ok", "scores": {
+            "visual_quality": 4, "text_video_alignment": 3, "physical_consistency": 5,
+        }}
+        existing = {"sample": {}, "judge": judge, "reasons": []}
+        media = MediaInfo(Path("/tmp/video.mp4"), 15.0, 24.0, 1280, 720)
+        with tempfile.TemporaryDirectory() as temp, patch("pipeline.run.probe_video", return_value=media), \
+                patch("pipeline.run.judge_video") as judge_call:
+            result = evaluate_sample(
+                sample_id="case-1", prompt="prompt", video=media.path,
+                output_dir=Path(temp), config=load_config(), run_judge=False,
+                run_technical=False, defer_technical=True, persist_result=False,
+                existing_record=existing,
+            )
+
+        judge_call.assert_not_called()
+        self.assertEqual(result["judge"], judge)
+        self.assertFalse(has_technical_scores(result))
+
+    def test_existing_technical_block_survives_judge_only_resume(self) -> None:
+        dimensions = {
+            "subject_consistency": {"mean": 0.8, "worst_window": {"score": 0.7}, "first_last_gap": 0.0},
+            "background_consistency": {"mean": 0.9, "worst_window": {"score": 0.8}, "first_last_gap": 0.0},
+            "motion_smoothness": {"mean": 0.8}, "dynamic_degree": {"mean": 0.5},
+            "aesthetic_quality": {"mean": 0.7}, "imaging_quality": {"mean": 0.8},
+        }
+        technical = {"status": "ok", "dimensions": dimensions}
+        existing = {"sample": {}, "technical": technical, "reasons": []}
+        media = MediaInfo(Path("/tmp/video.mp4"), 15.0, 24.0, 1280, 720)
+        judge = {"status": "ok", "scores": {
+            "visual_quality": 4, "text_video_alignment": 3, "physical_consistency": 5,
+        }}
+        with tempfile.TemporaryDirectory() as temp, patch("pipeline.run.probe_video", return_value=media), \
+                patch("pipeline.run.judge_video", return_value=judge) as judge_call:
+            result = evaluate_sample(
+                sample_id="case-1", prompt="prompt", video=media.path,
+                output_dir=Path(temp), config=load_config(), run_judge=True,
+                run_technical=False, defer_technical=False, persist_result=False,
+                existing_record=existing,
+            )
+
+        judge_call.assert_called_once()
+        self.assertEqual(result["technical"], technical)
+        self.assertTrue(has_technical_scores(result))
+        self.assertEqual(result["status"], "complete")
+
+    def test_existing_result_is_read_without_requiring_matching_fingerprint(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "result.json"
+            original = {"status": "complete", "input_fingerprint": "old", "final": {"score": 4.2}}
+            path.write_text('{"status":"complete","input_fingerprint":"old","final":{"score":4.2}}', encoding="utf-8")
+
+            loaded = read_existing_result(path)
+
+            self.assertEqual(loaded, original)
+            self.assertEqual(path.read_text(encoding="utf-8"), '{"status":"complete","input_fingerprint":"old","final":{"score":4.2}}')
+
+    def test_unreadable_existing_result_is_detected_without_modification(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "result.json"
+            path.write_text("not json", encoding="utf-8")
+
+            self.assertIsNone(read_existing_result(path))
+            self.assertEqual(path.read_text(encoding="utf-8"), "not json")
+
     def test_complete_requires_both_groups(self) -> None:
         record = {
             "judge": {"status": "ok", "scores": {
