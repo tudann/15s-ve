@@ -1,3 +1,4 @@
+import json
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -300,6 +301,32 @@ class MediaTests(unittest.TestCase):
             self.assertEqual(clips[0].start, 0.0)
             self.assertLess(unused, 1.0)
             self.assertTrue(clips[0].path.is_file())
+
+
+class LocalVBenchWeightTests(unittest.TestCase):
+    def test_six_dimensions_use_the_project_weight_copies(self) -> None:
+        from pipeline.technical import VBENCH_MODEL_DIR, _use_local_vbench_weights, local_vbench_files
+
+        for path in local_vbench_files().values():
+            self.assertTrue(path.is_file(), path)
+            self.assertIn(VBENCH_MODEL_DIR.resolve(), path.resolve().parents)
+        _use_local_vbench_weights()
+        from vbench.utils import CACHE_DIR, init_submodules
+
+        self.assertEqual(Path(CACHE_DIR).resolve(), VBENCH_MODEL_DIR.resolve())
+        loaded = init_submodules([
+            "subject_consistency",
+            "background_consistency",
+            "motion_smoothness",
+            "dynamic_degree",
+            "aesthetic_quality",
+            "imaging_quality",
+        ], local=True, read_frame=False)
+        blob = json.dumps(loaded)
+        self.assertIn(str(VBENCH_MODEL_DIR), blob)
+        self.assertNotIn("ViT-B/32", blob)
+        self.assertNotIn("ViT-L/14", blob)
+        self.assertNotIn("facebookresearch/dino", blob)
 
 
 if __name__ == "__main__":

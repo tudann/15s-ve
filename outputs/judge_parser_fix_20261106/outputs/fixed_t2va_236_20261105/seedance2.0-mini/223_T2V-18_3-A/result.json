@@ -1,0 +1,489 @@
+{
+  "dimension": "21. 整段保持与提示遵循",
+  "status": "complete",
+  "reasons": [],
+  "sample": {
+    "id": "223_T2V-18.3-A",
+    "prompt": "生成一段15秒、4:3横屏的二维手绘动画书店文字短片，采用二维手绘动画风格。\n\n成年女店主穿棕色开衫站在原木柜台旁；后方米白竖牌只有黑色无衬线汉字“慢慢阅读”，横向单行，字形端正、间距均匀。场景中的人物均为成年人。\n\n构图与光影：二维手绘中牌面保持平整，黑字对米白底高对比，中等粗细、四边留白。\n\n镜1（0—2秒）·全景：柜台侧面，店主把后方竖牌扶正。\n镜2（2—4秒）·近景：牌面正向观察，“慢慢阅读”四字横排完整，手不挡笔画。\n镜3（4—9秒）·中景：同侧小移，她退半步让出牌面、向牌轻作展示手势。\n镜4（9—12秒）·特写：四字整行充足大小，字形端正间距均匀，稳读三秒。\n镜5（12—15秒）·全景：柜台斜角，她收手侧头看牌、再抬眼，牌未变成花体或低对比细字。\n\n必须保持：字体、字号、对比度和留白使“慢慢阅读”容易识别。不要装饰性扭曲字形，不用极细低对比字代替可读文字。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。文字仅生成上述指定内容，不增加品牌、署名、日期或水印；字号、字序与安全区按要求保持。",
+    "video": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/223_T2V-18.3-A/seedance2.0-mini.mp4",
+    "mode": "t2va",
+    "references": []
+  },
+  "media": {
+    "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/data/固定case/t2va/223_T2V-18.3-A/seedance2.0-mini.mp4",
+    "duration_seconds": 15.1,
+    "fps": 24.0,
+    "width": 1112,
+    "height": 834
+  },
+  "judge": {
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "scores": {
+      "visual_quality": 4,
+      "text_video_alignment": 4,
+      "physical_consistency": 4
+    },
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a 15-second, 4:3 horizontal frame, a two-dimensional hand-drawn animation bookstore short film, featuring an adult female owner in a brown cardigan standing at a wooden counter, with a vertical sign containing the Chinese characters '慢慢阅读' (slow reading) in black on a light background, and a two-dimensional hand-drawn style.\" \n\nVisual Quality Analysis:\nThe visuals are generally strong, with clear rendering of the character, clothing, and the bookshelf environment. The lighting is warm and consistent, and the overall art direction remains cohesive across the sequence. There are no major distortions or artifacts, and the scene maintains good depth cues. However, there are occasional minor inconsistencies in fine details (e.g., slight variations in hand positioning or subtle texture shifts) that prevent a perfect top-tier score. Overall, visual quality is solid but not flawless.\n\nText-to-Video Alignment Analysis:\nThe video largely satisfies the prompt requirements: the setting is clearly a bookstore, the character appears as an adult female wearing a brown cardigan, and she is positioned at a wooden counter. The sign with the Chinese characters \"慢慢阅读\" is present and rendered in black on a light background. The sequence progresses through the described actions, and the framing remains close to a 4:3 aspect ratio. The alignment is strong overall, with only minor deviations in timing or exact pose that do not significantly detract from fidelity.\n\nPhysical/Common-sense Consistency:\nThe scene adheres to plausible physical behavior: the character’s movements, object interactions, and spatial relationships follow everyday expectations, and lighting/shadows support realism. There are a few small timing or gesture nuances that could be refined, but they do not undermine overall coherence.\n\nGround-truth scores:\n- Visual Quality: 4\n- Text-to-Video Alignment: 4\n- Physical Consistency: 4\n\n</think>\n\n(1) visual quality: 4\n(2) text-to-video alignment: 4\n(3) physical/common-sense consistency: 4\n"
+  },
+  "input_fingerprint": "7cd4192135eafc7285050ced0092e8ff61d2e5abba77dfacb361989f97a23ab7",
+  "technical": {
+    "status": "ok",
+    "gpu": "4",
+    "window_seconds": 2.0,
+    "unused_tail_seconds": 0.0,
+    "windows": [
+      {
+        "index": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/223_T2V-18_3-A/windows/win_000.mp4"
+      },
+      {
+        "index": 1,
+        "start": 2.0,
+        "end": 4.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/223_T2V-18_3-A/windows/win_001.mp4"
+      },
+      {
+        "index": 2,
+        "start": 4.0,
+        "end": 6.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/223_T2V-18_3-A/windows/win_002.mp4"
+      },
+      {
+        "index": 3,
+        "start": 6.0,
+        "end": 8.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/223_T2V-18_3-A/windows/win_003.mp4"
+      },
+      {
+        "index": 4,
+        "start": 8.0,
+        "end": 10.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/223_T2V-18_3-A/windows/win_004.mp4"
+      },
+      {
+        "index": 5,
+        "start": 10.0,
+        "end": 12.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/223_T2V-18_3-A/windows/win_005.mp4"
+      },
+      {
+        "index": 6,
+        "start": 12.0,
+        "end": 14.0,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/223_T2V-18_3-A/windows/win_006.mp4"
+      },
+      {
+        "index": 7,
+        "start": 14.0,
+        "end": 15.1,
+        "path": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/223_T2V-18_3-A/windows/win_007.mp4"
+      }
+    ],
+    "dimensions": {
+      "subject_consistency": {
+        "mean": 0.962746,
+        "worst_window": {
+          "index": 5,
+          "start": 10.0,
+          "score": 0.897594
+        },
+        "first_last_gap": -0.017879,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.97831
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.936278
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.957619
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.945238
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.998101
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.897594
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.992642
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.996189
+          }
+        ]
+      },
+      "background_consistency": {
+        "mean": 0.968418,
+        "worst_window": {
+          "index": 5,
+          "start": 10.0,
+          "score": 0.920665
+        },
+        "first_last_gap": -0.004919,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.984848
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.956018
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.963576
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.958247
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.992889
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.920665
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.981336
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.989766
+          }
+        ]
+      },
+      "motion_smoothness": {
+        "mean": 0.992088,
+        "worst_window": {
+          "index": 3,
+          "start": 6.0,
+          "score": 0.984713
+        },
+        "first_last_gap": -0.000225,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.995574
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.989473
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.988951
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.984713
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.997364
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.989042
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.995789
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.995798
+          }
+        ]
+      },
+      "dynamic_degree": {
+        "mean": 0.0,
+        "worst_window": {
+          "index": 0,
+          "start": 0.0,
+          "score": 0.0
+        },
+        "first_last_gap": 0.0,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.0
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.0
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.0
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.0
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.0
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.0
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.0
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.0
+          }
+        ]
+      },
+      "aesthetic_quality": {
+        "mean": 0.617321,
+        "worst_window": {
+          "index": 4,
+          "start": 8.0,
+          "score": 0.494723
+        },
+        "first_last_gap": -0.017984,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.635033
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.641859
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.572346
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.700271
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.494723
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.58936
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.651958
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.653017
+          }
+        ]
+      },
+      "imaging_quality": {
+        "mean": 0.772944,
+        "worst_window": {
+          "index": 2,
+          "start": 4.0,
+          "score": 0.722764
+        },
+        "first_last_gap": -0.016412,
+        "windows": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "score": 0.784521
+          },
+          {
+            "index": 1,
+            "start": 2.0,
+            "score": 0.768835
+          },
+          {
+            "index": 2,
+            "start": 4.0,
+            "score": 0.722764
+          },
+          {
+            "index": 3,
+            "start": 6.0,
+            "score": 0.790336
+          },
+          {
+            "index": 4,
+            "start": 8.0,
+            "score": 0.749475
+          },
+          {
+            "index": 5,
+            "start": 10.0,
+            "score": 0.767758
+          },
+          {
+            "index": 6,
+            "start": 12.0,
+            "score": 0.798932
+          },
+          {
+            "index": 7,
+            "start": 14.0,
+            "score": 0.800934
+          }
+        ]
+      }
+    },
+    "raw_results": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/_batch/vbench/windows_eval_results.json"
+  },
+  "final": {
+    "scale": [
+      1,
+      5
+    ],
+    "score": 4.27,
+    "technical_weight": 0.5,
+    "judge_weight": 0.5,
+    "technical_score": 4.54,
+    "judge_score": 4.0,
+    "technical_components": {
+      "subject_consistency": {
+        "unit": 0.93017,
+        "score": 4.72,
+        "weight": 0.4
+      },
+      "background_consistency": {
+        "unit": 0.944541,
+        "score": 4.78,
+        "weight": 0.25
+      },
+      "imaging_quality": {
+        "unit": 0.772944,
+        "score": 4.09,
+        "weight": 0.15
+      },
+      "motion_smoothness": {
+        "unit": 0.992088,
+        "score": 4.97,
+        "weight": 0.1
+      },
+      "aesthetic_quality": {
+        "unit": 0.617321,
+        "score": 3.47,
+        "weight": 0.1
+      }
+    },
+    "judge_components": {
+      "text_video_alignment": {
+        "score": 4.0,
+        "weight": 0.5
+      },
+      "visual_quality": {
+        "score": 4.0,
+        "weight": 0.25
+      },
+      "physical_consistency": {
+        "score": 4.0,
+        "weight": 0.25
+      }
+    },
+    "excluded": [
+      "dynamic_degree"
+    ]
+  }
+}

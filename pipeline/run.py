@@ -9,7 +9,7 @@ from typing import Any
 
 from .config import PipelineConfig
 from .final_score import attach_final_score
-from .judge import judge_video
+from .judge import JudgeResponseError, judge_video
 from .media import probe_video
 from .technical import TechnicalUnavailable, score_technical
 
@@ -55,8 +55,10 @@ def evaluate_sample(
             record["judge"] = judge_video(media, prompt, config.judge, sample_dir, mode=mode, references=references)
             record["reasons"] = [reason for reason in record["reasons"] if not str(reason).startswith("裁判：")]
         except (RuntimeError, ValueError, OSError, subprocess.TimeoutExpired) as exc:
-            record["judge"] = {"status": "error"}
-            record["reasons"].append(f"裁判：{exc}")
+            record["judge"] = exc.result if isinstance(exc, JudgeResponseError) else {"status": "error"}
+            reason = f"裁判：{exc}"
+            if reason not in record["reasons"]:
+                record["reasons"].append(reason)
     elif not has_judge_scores(record):
         record["reasons"].append("未运行裁判")
 

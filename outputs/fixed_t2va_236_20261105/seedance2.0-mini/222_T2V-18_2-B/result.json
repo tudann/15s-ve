@@ -1,10 +1,7 @@
 {
   "dimension": "21. 整段保持与提示遵循",
-  "status": "incomplete",
-  "reasons": [
-    "裁判：裁判输出里没有三行分数",
-    "裁判：裁判输出里没有三行分数"
-  ],
+  "status": "complete",
+  "reasons": [],
   "sample": {
     "id": "222_T2V-18.2-B",
     "prompt": "生成一段15秒、1:1方形画幅的真人展览字幕短片，真人影像。\n\n成年男策展人穿深灰西装，站在一尊白色抽象雕塑旁，展厅暖白光均匀，背景无其他文字。场景中的人物均为成年人。\n\n构图与光影：展厅暖白均匀，雕塑弧面有渐变，字幕以高对比底部安全区呈现不压雕塑。\n\n镜1（0—2秒）·全景：策展人望雕塑、抬手比轮廓，字幕“第一站：观察轮廓。”。\n镜2（2—4秒）·近景：侧前人物和雕塑边缘，他沿轮廓看上去，第一句继续。\n镜3（4—7秒）·大全景：绕雕塑前迈一步，4秒起字幕完整换成“第二站：寻找光与影的交界。”。\n镜4（7—10秒）·中景：跟着光暗交界调整观察角度，第二句保持至10秒，不裁长句。\n镜5（10—12.5秒）·近景：他停步回望、收手，10秒起字幕换成“第三站：留下自己的答案。”。\n镜6（12.5—15秒）·全景：反侧全身，他再后退半步看全雕塑，第三句留到15秒，三句不重叠。\n\n必须保持：三条长度不同的字幕按顺序完整呈现，长句不被裁切。不能把第二句省成短词，不能同时叠放三句。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。人物身份、服装、道具数量和状态在切镜前后对应；按已建立的行动轴线、视线和运动方向衔接。关键接触、轨迹、遮挡及恢复过程只在明确完成后切走，不能借剪辑省略。文字仅生成上述指定内容，不增加品牌、署名、日期或水印；字号、字序与安全区按要求保持。",
@@ -20,7 +17,66 @@
     "height": 960
   },
   "judge": {
-    "status": "error"
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "parser_version": 2,
+    "response_file": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/222_T2V-18_2-B/judge_responses/response-1793929965895222386.json",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 16971,
+      "total_tokens": 17350,
+      "completion_tokens": 379,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "image_tokens": 15870
+      },
+      "reasoning_tokens": 0
+    },
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt. The prompt asks for \"a 15-second, 1:1 square-framed short video with a live exhibition subtitle featuring a live presenter in a gray suit standing beside a white abstract sculpture in a gallery with warm white lighting, with three different subtitle sections presented in sequence.\" \n\nVisual Quality Analysis:\nThe overall visual quality is moderate (3/5). The frames maintain decent clarity and consistent lighting, but there are occasional minor artifacts and slight color/contrast fluctuations that prevent a higher rating. The framing remains generally stable, though a few shots show subtle deviations from perfect 1:1 aspect.\n\nText-to-Video Alignment Analysis:\nAlignment with the prompt is strong overall (4/5). The video presents a presenter in a gray suit, a white abstract sculpture, a gallery setting with warm lighting, and the three subtitle sections appear in sequence. The only notable deviation is that the initial subtitle content diverges slightly from the exact wording described in the prompt; otherwise, the scene composition and progression closely match the requested scenario.\n\nPhysical/Common-sense Consistency:\nPhysical consistency is moderate (3/5). Movements and interactions feel plausible, and the gallery environment appears realistic. However, there are minor inconsistencies in lighting/shadow transitions and some spatial relationships across frames that prevent a higher score.\n\nOverall assessment:\nThe video demonstrates solid technical execution with good alignment to the prompt, while maintaining moderate visual quality and physical consistency.\n</think>\n\n(1) visual quality — clarity, stability, and visible artifacts across the whole clip.3\n(2) text-to-video alignment — whether the clip shows the subject, action, and scene in the prompt.4\n(3) physical/common-sense consistency — whether visible motion and object relations follow everyday physics and common sense.3\n",
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 4,
+      "physical_consistency": 3
+    }
   },
   "input_fingerprint": "b325f46677c1553dbcbe50629b79593e6979d64676ac0f798e28cbfbde8aef20",
   "technical": {
@@ -387,5 +443,60 @@
       }
     },
     "raw_results": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/_batch/vbench/windows_eval_results.json"
+  },
+  "final": {
+    "scale": [
+      1,
+      5
+    ],
+    "score": 3.92,
+    "technical_weight": 0.5,
+    "judge_weight": 0.5,
+    "technical_score": 4.34,
+    "judge_score": 3.5,
+    "technical_components": {
+      "subject_consistency": {
+        "unit": 0.872875,
+        "score": 4.49,
+        "weight": 0.4
+      },
+      "background_consistency": {
+        "unit": 0.922809,
+        "score": 4.69,
+        "weight": 0.25
+      },
+      "imaging_quality": {
+        "unit": 0.746818,
+        "score": 3.99,
+        "weight": 0.15
+      },
+      "motion_smoothness": {
+        "unit": 0.99327,
+        "score": 4.97,
+        "weight": 0.1
+      },
+      "aesthetic_quality": {
+        "unit": 0.439482,
+        "score": 2.76,
+        "weight": 0.1
+      }
+    },
+    "judge_components": {
+      "text_video_alignment": {
+        "score": 4.0,
+        "weight": 0.5
+      },
+      "visual_quality": {
+        "score": 3.0,
+        "weight": 0.25
+      },
+      "physical_consistency": {
+        "score": 3.0,
+        "weight": 0.25
+      }
+    },
+    "excluded": [
+      "dynamic_degree"
+    ]
   }
 }

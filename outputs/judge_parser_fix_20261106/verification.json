@@ -1,0 +1,73 @@
+{
+  "samples": 236,
+  "complete": 236,
+  "unchanged_result_files": 234,
+  "unchanged_technical_blocks": 236,
+  "tests_passed": 36,
+  "fixed": [
+    {
+      "id": "020_T2V-1.10-B",
+      "scores": {
+        "visual_quality": 3,
+        "text_video_alignment": 5,
+        "physical_consistency": 4
+      },
+      "final_score": 4.38,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 29306,
+        "total_tokens": 29757,
+        "completion_tokens": 451,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 28290
+        },
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "id": "222_T2V-18.2-B",
+      "scores": {
+        "visual_quality": 3,
+        "text_video_alignment": 4,
+        "physical_consistency": 3
+      },
+      "final_score": 3.92,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 16971,
+        "total_tokens": 17350,
+        "completion_tokens": 379,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 15870
+        },
+        "reasoning_tokens": 0
+      }
+    }
+  ],
+  "summary": {
+    "dimension": "21. 整段保持与提示遵循",
+    "samples": 236,
+    "complete": 236,
+    "groups": {
+      "15s": {
+        "count": 236,
+        "technical_mean": {
+          "subject_consistency": 0.904391,
+          "background_consistency": 0.94335,
+          "motion_smoothness": 0.990942,
+          "dynamic_degree": 0.53178,
+          "aesthetic_quality": 0.575504,
+          "imaging_quality": 0.7197
+        },
+        "judge_mean": {
+          "visual_quality": 3.54661,
+          "text_video_alignment": 3.800847,
+          "physical_consistency": 3.478814
+        },
+        "final_mean": 3.98
+      }
+    }
+  }
+}

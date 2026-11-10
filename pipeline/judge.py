@@ -4,6 +4,7 @@ import base64
 import json
 import re
 import subprocess
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -17,11 +18,19 @@ from .media import MediaInfo
 from .references import validate_references
 from .context import build_context
 
-SCORE_PATTERN = re.compile(
-    r"visual quality(?:\s*[—–-][^\r\n:]*)?:\s*(\d+).*?text-to-video alignment(?:\s*[—–-][^\r\n:]*)?:\s*(\d+).*?"
-    r"physical/common-sense consistency(?:\s*[—–-][^\r\n:]*)?:\s*(\d+)",
-    re.IGNORECASE | re.DOTALL,
+SCORE_AXES = (
+    ("visual_quality", "visual quality", "clarity, stability, and visible artifacts across the whole clip."),
+    ("text_video_alignment", "text-to-video alignment", "whether the clip shows the subject, action, and scene in the prompt."),
+    ("physical_consistency", "physical/common-sense consistency", "whether visible motion and object relations follow everyday physics and common sense."),
 )
+
+
+class JudgeResponseError(RuntimeError):
+    """A response was received but could not yield validated final scores."""
+
+    def __init__(self, result: dict[str, Any]):
+        super().__init__(result["error"])
+        self.result = result
 
 QUESTION = """You are scoring one generated video with the VideoScore2 protocol.
 Score each axis as an integer from 1 to 5.
@@ -55,14 +64,24 @@ def score_prompt(prompt: str) -> str:
 
 def parse_scores(text: str) -> dict[str, int]:
     # Reasoning may mention tentative scores; only parse the final answer.
-    answer = re.sub(r"<think>.*?</think>", "", text or "", flags=re.DOTALL | re.IGNORECASE)
-    match = SCORE_PATTERN.search(answer)
-    if match is None:
-        raise ValueError("裁判输出里没有三行分数")
-    names = ("visual_quality", "text_video_alignment", "physical_consistency")
+    # Some served answers omit the opening tag. A closing tag still marks the
+    # boundary: discard everything before the last one, including tentative scores.
+    answer = re.split(r"</think\s*>", text or "", flags=re.IGNORECASE)[-1]
+    if re.search(r"</?think\b", answer, flags=re.IGNORECASE):
+        raise ValueError("裁判思考段未正确闭合，不提取中间分数")
     scores: dict[str, int] = {}
-    for name, raw in zip(names, match.groups()):
-        value = int(raw)
+    for index, (name, label, description) in enumerate(SCORE_AXES, 1):
+        prefix = rf"^[ \t]*(?:\({index}\)[ \t]*)?" + re.escape(label)
+        # Preserve colon-form answers. The fallback accepts only the exact axis
+        # description from QUESTION followed by an integer at the end of a line.
+        suffix = (
+            r"(?:[ \t]*[—–-][^\r\n:]*)?[ \t]*:[ \t]*(\d+)"
+            r"|[ \t]*[—–-][ \t]*" + re.escape(description) + r"[ \t]*(\d+)"
+        )
+        matches = re.findall(prefix + "(?:" + suffix + r")[ \t]*\r?$", answer, flags=re.IGNORECASE | re.MULTILINE)
+        if len(matches) != 1:
+            raise ValueError(f"裁判输出里没有唯一的三行分数：{name} 匹配到 {len(matches)} 项")
+        value = int(next(raw for raw in matches[0] if raw))
         if value < 1 or value > 5:
             raise ValueError(f"{name} 超出 1–5：{value}")
         scores[name] = value
@@ -100,22 +119,42 @@ def judge_video(media: MediaInfo, prompt: str, config: JudgeConfig, work_dir: Pa
     if sum(part.get("type") == "image_url" for part in content) > config.max_context_images:
         raise RuntimeError("裁判图片数量超过 max_context_images，不静默丢弃素材")
     response = _complete(config, content)
-    raw_text = _message_text(response)
-    scores = parse_scores(raw_text)
-    return {
-        "status": "ok",
+    # Persist the received payload before attempting any extraction or parsing.
+    response_dir = work_dir / "judge_responses"
+    response_dir.mkdir(parents=True, exist_ok=True)
+    response_path = response_dir / f"response-{time.time_ns()}.json"
+    audit: dict[str, Any] = {"response": response, "parser_version": 2}
+    response_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    choices = response.get("choices")
+    choice = choices[0] if isinstance(choices, list) and choices and isinstance(choices[0], dict) else {}
+    result = {
+        "status": "error",
         "protocol": config.protocol,
         "protocol_model": config.protocol_model,
         "served_model": config.model,
         "base_url": config.base_url,
         "temperature": config.temperature,
         "frame_timestamps": [round(timestamp, 3) for timestamp, _ in frames],
-        "scores": scores,
         "input_mode": mode,
         "reference_evidence": evidence,
         "context_version": 2,
-        "raw_text": raw_text,
+        "parser_version": 2,
+        "response_file": str(response_path),
+        "finish_reason": choice.get("finish_reason"),
+        "usage": response.get("usage"),
     }
+    try:
+        result["raw_text"] = _message_text(response)
+        if result["finish_reason"] == "length":
+            raise ValueError("裁判输出被截断（finish_reason=length），不采纳不完整回答")
+        result["scores"] = parse_scores(result["raw_text"])
+    except (RuntimeError, ValueError) as exc:
+        result["error"] = str(exc)
+        audit.update(raw_text=result.get("raw_text", ""), parse_error=str(exc))
+        response_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        raise JudgeResponseError(result) from exc
+    result["status"] = "ok"
+    return result
 
 
 def extract_frames(media: MediaInfo, directory: Path, *, fps: float, limit: int, width: int, quality: int, long_side: bool = False) -> list[tuple[float, Path]]:
@@ -204,8 +243,10 @@ def _message_text(payload: dict[str, Any]) -> str:
     choices = payload.get("choices")
     if not isinstance(choices, list) or not choices:
         raise RuntimeError("裁判响应没有 choices")
+    if not isinstance(choices[0], dict):
+        raise RuntimeError("裁判响应 choice 不是对象")
     message = choices[0].get("message", {})
     content = message.get("content", "") if isinstance(message, dict) else ""
     if isinstance(content, list):
         return "".join(str(part.get("text", "")) for part in content if isinstance(part, dict))
-    return str(content)
+    return "" if content is None else str(content)

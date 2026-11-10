@@ -1,10 +1,7 @@
 {
   "dimension": "21. 整段保持与提示遵循",
-  "status": "incomplete",
-  "reasons": [
-    "裁判：裁判输出里没有三行分数",
-    "裁判：裁判输出里没有三行分数"
-  ],
+  "status": "complete",
+  "reasons": [],
   "sample": {
     "id": "020_T2V-1.10-B",
     "prompt": "生成一段15秒、9:16竖屏的真人艺术馆时尚片段，真人影像。\n\n闭馆后的白色雕塑展厅仅一名成年女舞者，穿栗红色长裙，头发整齐盘起；厅内有一尊抽象石雕和远处玻璃门，柔和天光从高窗进入。场景中的人物均为成年人。\n\n构图与光影：高窗斜光在石雕与栗红裙之间分层，空展厅纵深始终可检查。\n\n镜头与动作（0—15秒）：一条连续广角短弧跟拍；0—3秒舞者在雕塑左侧展裙迈步；3—7秒沿雕塑前侧加快两步、转身半圈；7—11秒以交叉步绕到右侧，裙摆回落、手扶雕塑旁的空气但不碰雕塑；11—15秒放裙收步，沿右侧通道走向玻璃门，摄影机侧移保留全部空通道。全程仅她一人，人物、雕塑与玻璃门持续同框，不设镜面人影\n\n必须保持：始终只有舞者一人，环绕期间始终只出现舞者一人，玻璃门后无人影、无人反射，镜头不切断舞者与雕塑的空间关系。不出现工作人员、背景观众、玻璃后的人影或反射人物；跟拍时仍保留舞者、雕塑后方通道与玻璃门的全景空间证据。\n\n声音设计：保留与可见动作对齐的现场声和材质拟音，空间混响自然，切镜不打断同一事件的声音；不加旁白。\n\n按真实时间、正常动作速度，起势、发力、接触、反应和落定衔接合理；不快放、不无意慢放，不用空等或重复动作填时长。保持人物、道具数量、空间与动作因果连续，遵守上述固定机位、景别或全时段可见要求。不添加未要求的字幕、文字、品牌标志或水印。",
@@ -20,7 +17,66 @@
     "height": 1280
   },
   "judge": {
-    "status": "error"
+    "status": "ok",
+    "protocol": "VideoScore2",
+    "protocol_model": "TIGER-Lab/VideoScore2",
+    "served_model": "VideoScore2",
+    "base_url": "http://127.0.0.1:8013/v1",
+    "temperature": 0.0,
+    "frame_timestamps": [
+      0.252,
+      0.755,
+      1.258,
+      1.762,
+      2.265,
+      2.768,
+      3.272,
+      3.775,
+      4.278,
+      4.782,
+      5.285,
+      5.788,
+      6.292,
+      6.795,
+      7.298,
+      7.802,
+      8.305,
+      8.808,
+      9.312,
+      9.815,
+      10.318,
+      10.822,
+      11.325,
+      11.828,
+      12.332,
+      12.835,
+      13.338,
+      13.842,
+      14.345,
+      14.848
+    ],
+    "input_mode": "t2va",
+    "reference_evidence": [],
+    "context_version": 2,
+    "parser_version": 2,
+    "response_file": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/seedance2.0-mini/020_T2V-1_10-B/judge_responses/response-1793929947115777807.json",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 29306,
+      "total_tokens": 29757,
+      "completion_tokens": 451,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "image_tokens": 28290
+      },
+      "reasoning_tokens": 0
+    },
+    "raw_text": "\n<think>\nmulti-dimensional analysis:\nLet me analyze this video based on the provided frames and the text prompt.\n\nThe text prompt describes a 15-second, 9:16 vertical video of a female dancer in a burgundy long dress performing near a white spiral sculpture in an art gallery, with natural light from skylights, and a single dancer throughout. The evaluation below reflects the video as a whole rather than frame-by-frame details.\n\nVisual Quality Analysis:\n- The overall visual quality is moderate (3/5). The frames are generally clear with decent lighting and natural color rendition, but there are occasional minor artifacts or slight softness that prevent a higher rating.\n- Lighting remains consistent across the sequence, with believable shadows from the skylights; no major distortions or color shifts are evident.\n- The dancer's pose and movement appear plausible, and the environment reads as a clean, well-lit gallery space. Overall, the visuals are acceptable but not exceptional.\n\nText-to-Video Alignment Analysis:\n- The video aligns very closely with the prompt: a single female dancer in a burgundy long dress near a white spiral sculpture in a gallery setting, with natural light and a continuous performance. The alignment is strong and effectively matches all key elements, supporting a top score for this dimension.\n\nPhysical/Common-sense Consistency Analysis:\n- The scene maintains coherent physical behavior: the dancer's movements flow naturally, the dress moves plausibly, and spatial relationships to the sculpture and floor remain consistent. Lighting and shadows behave realistically, and there are no obvious physics violations. However, given the static-frame assessment, some dynamic interactions could exist beyond these frames, so the overall consistency is solid but not perfect (4/5).\n\nGround-truth scores:\n- Visual Quality: 3\n- Text-to-Video Alignment: 5\n- Physical Consistency: 4\n\n</think>\n\n(1) visual quality — clarity, stability, and visible artifacts across the whole clip.3\n(2) text-to-video alignment — whether the clip shows the subject, action, and scene in the prompt.5\n(3) physical/common-sense consistency — whether visible motion and object relations follow everyday physics and common sense.4\n",
+    "scores": {
+      "visual_quality": 3,
+      "text_video_alignment": 5,
+      "physical_consistency": 4
+    }
   },
   "input_fingerprint": "12a60a41096d9d53d5732bb9f9294b2fa5df83eec878522690deee42ab94a42b",
   "technical": {
@@ -387,5 +443,60 @@
       }
     },
     "raw_results": "/pfs/pfs-spMCeu/eval_team/Video-eval/LT/long_eval/outputs/fixed_t2va_236_20261105/_batch/vbench/windows_eval_results.json"
+  },
+  "final": {
+    "scale": [
+      1,
+      5
+    ],
+    "score": 4.38,
+    "technical_weight": 0.5,
+    "judge_weight": 0.5,
+    "technical_score": 4.5,
+    "judge_score": 4.25,
+    "technical_components": {
+      "subject_consistency": {
+        "unit": 0.936038,
+        "score": 4.74,
+        "weight": 0.4
+      },
+      "background_consistency": {
+        "unit": 0.94629,
+        "score": 4.79,
+        "weight": 0.25
+      },
+      "imaging_quality": {
+        "unit": 0.778383,
+        "score": 4.11,
+        "weight": 0.15
+      },
+      "motion_smoothness": {
+        "unit": 0.994359,
+        "score": 4.98,
+        "weight": 0.1
+      },
+      "aesthetic_quality": {
+        "unit": 0.489257,
+        "score": 2.96,
+        "weight": 0.1
+      }
+    },
+    "judge_components": {
+      "text_video_alignment": {
+        "score": 5.0,
+        "weight": 0.5
+      },
+      "visual_quality": {
+        "score": 3.0,
+        "weight": 0.25
+      },
+      "physical_consistency": {
+        "score": 4.0,
+        "weight": 0.25
+      }
+    },
+    "excluded": [
+      "dynamic_degree"
+    ]
   }
 }

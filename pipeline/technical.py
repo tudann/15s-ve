@@ -18,6 +18,25 @@ class TechnicalUnavailable(RuntimeError):
     """VBench is not installed, or the selected GPU should not be used."""
 
 
+VBENCH_MODEL_DIR = Path(__file__).resolve().parents[1] / "models" / "vbench"
+_DINO_WEIGHT_NAME = "dino_vitbase16_pretrain.pth"
+
+
+def local_vbench_files() -> dict[str, Path]:
+    """Weights copied for the six technical dimensions. Callers load only these files."""
+    root = VBENCH_MODEL_DIR
+    return {
+        "clip_b32": root / "clip_model" / "ViT-B-32.pt",
+        "clip_l14": root / "clip_model" / "ViT-L-14.pt",
+        "amt": root / "amt_model" / "amt-s.pth",
+        "raft": root / "raft_model" / "models" / "raft-things.pth",
+        "musiq": root / "pyiqa_model" / "musiq_spaq_ckpt-358bb6af.pth",
+        "aesthetic": root / "aesthetic_model" / "emb_reader" / "sa_0_4_vit_l_14_linear.pth",
+        "dino": root / "dino_model" / _DINO_WEIGHT_NAME,
+        "dino_repo": root / "dino_model" / "facebookresearch_dino_main" / "hubconf.py",
+    }
+
+
 def choose_gpu(readings: list[tuple[str, int | None]]) -> str:
     """Pick the readable GPU with the most free memory. Earlier entries win a tie."""
     available = [(gpu, free) for gpu, free in readings if free is not None]
@@ -116,6 +135,7 @@ def score_technical_batch(
 def _run_vbench(window_dir: Path, output_dir: Path, config: TechnicalConfig, gpu: str) -> Path:
     _ensure_unzip()
     _load_vbench_checkpoints()
+    _use_local_vbench_weights()
     try:
         from vbench import VBench
     except ImportError as exc:
@@ -134,6 +154,7 @@ def _run_vbench(window_dir: Path, output_dir: Path, config: TechnicalConfig, gpu
             videos_path=str(window_dir),
             name="windows",
             dimension_list=list(config.dimensions),
+            local=True,
             mode="custom_input",
         )
     finally:
@@ -178,6 +199,37 @@ def _imaging_unit_interval(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     if rows and max(float(row["score"]) for row in rows) > 1:
         return [{**row, "score": float(row["score"]) / 100} for row in rows]
     return rows
+
+
+def _use_local_vbench_weights() -> None:
+    """Point VBench at models/vbench and stop DINO from reading the torch hub cache."""
+    missing = [str(path) for path in local_vbench_files().values() if not path.is_file()]
+    if missing:
+        raise TechnicalUnavailable("VBench 本地权重不完整：" + "、".join(missing))
+    os.environ["VBENCH_CACHE_DIR"] = str(VBENCH_MODEL_DIR)
+    import vbench.utils as vbench_utils
+    vbench_utils.CACHE_DIR = str(VBENCH_MODEL_DIR)
+    _redirect_dino_weight(local_vbench_files()["dino"])
+
+
+def _redirect_dino_weight(weight: Path) -> None:
+    """Official hubconf ignores the local path and downloads this filename into TORCH_HOME."""
+    import torch
+    hub = torch.hub
+    current = getattr(hub.load_state_dict_from_url, "_long_eval_dino", None)
+    if current is not None:
+        current["weight"] = weight
+        return
+    original = hub.load_state_dict_from_url
+    state = {"weight": weight}
+
+    def load_state_dict_from_url(url, *args, **kwargs):
+        if str(url).endswith(_DINO_WEIGHT_NAME):
+            return torch.load(state["weight"], map_location=kwargs.get("map_location", "cpu"), weights_only=False)
+        return original(url, *args, **kwargs)
+
+    load_state_dict_from_url._long_eval_dino = state
+    hub.load_state_dict_from_url = load_state_dict_from_url
 
 
 def _load_vbench_checkpoints() -> None:

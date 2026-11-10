@@ -1,22 +1,22 @@
 {
   "dimension": "21. 整段保持与提示遵循",
   "samples": 236,
-  "complete": 234,
+  "complete": 236,
   "groups": {
     "15s": {
-      "count": 234,
+      "count": 236,
       "technical_mean": {
-        "subject_consistency": 0.904061,
-        "background_consistency": 0.943253,
-        "motion_smoothness": 0.990917,
-        "dynamic_degree": 0.532585,
-        "aesthetic_quality": 0.576454,
-        "imaging_quality": 0.719334
+        "subject_consistency": 0.904391,
+        "background_consistency": 0.94335,
+        "motion_smoothness": 0.990942,
+        "dynamic_degree": 0.53178,
+        "aesthetic_quality": 0.575504,
+        "imaging_quality": 0.7197
       },
       "judge_mean": {
-        "visual_quality": 3.551282,
-        "text_video_alignment": 3.794872,
-        "physical_consistency": 3.478632
+        "visual_quality": 3.54661,
+        "text_video_alignment": 3.800847,
+        "physical_consistency": 3.478814
       },
       "final_mean": 3.98
     }
